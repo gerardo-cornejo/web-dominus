@@ -1,0 +1,12 @@
+.carousel {
+    height: 100vh;
+    margin-top: -75px !important;
+}
+
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    /* Para que las imágenes se adapten sin deformarse */
+}

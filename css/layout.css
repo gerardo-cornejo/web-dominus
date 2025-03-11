@@ -1,0 +1,45 @@
+/*Variables CSS.*/
+:root {
+  --color-dominus: #e63312;
+  --color-dominus-dark: #97220D;
+}
+
+/******* navbar ******/
+.navbar {
+  /*Background negro-transparente*/
+  background: linear-gradient(to bottom, black, transparent);
+  /*Sobreponerse a otros objetos*/
+  z-index: 999;
+
+}
+
+.navbar-brand img {
+  height: 50px;
+  /*Tamaño del logo*/
+}
+
+a.nav-link {
+  font-size: 11pt;
+  /*Tamaño delas  opciones del navbar*/
+}
+
+a.nav-link.text-white.active {
+  font-weight: bold !important;
+  /*Negrita para cuando estés en la página visitada*/
+}
+
+.navbar ul li {
+  margin-left: 10px;
+  /*Margin entre opciones del navbar*/
+}
+
+.btn-dominus {
+  background-color: var(--color-dominus);
+  color: white;
+}
+
+.btn-dominus:hover {
+  background-color: var(--color-dominus-dark);
+  color: white;
+
+}
