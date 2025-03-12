@@ -1,3 +1,130 @@
 @media(max-width:992px) {
+    .carousel-caption div p {
+        font-size: 30pt;
+        font-weight: 400;
+        color: white;
+        text-align-last: start;
+        line-height: 50px;
+        transition: 0.3s ease-in-out;
+    }
 
+    .btn-dominus-carousel {
+        color: var(--color-dominus-green-dark);
+        font-size: 13pt !important;
+        background-color: white;
+        border: solid 1 px var(--color-dominus-green-dark);
+        width: 250px;
+        height: 45px;
+        transition: 0.3s ease-in-out;
+    }
+    .producto-tag .badge {
+        transition: 0.3s ease-in-out;
+        width: 120px;
+    }
+    .contenedor-producto img {
+        transition: 0.3s ease-in-out;
+        height: 135px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .carousel-caption div p {
+        font-size: 28pt !important;
+        font-weight: 400;
+        color: white;
+        text-align-last: start;
+        line-height: 50px !important;
+        transition: 0.3s ease-in-out;
+    }
+
+    .btn-dominus-carousel {
+        color: var(--color-dominus-green-dark);
+        font-size: 11pt !important;
+        background-color: white;
+        border: solid 1 px var(--color-dominus-green-dark);
+        width: 200px;
+        height: 35px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .contenedor-producto img {
+        transition: 0.3s ease-in-out;
+        height: 95px !important;
+    }
+
+    .contenedor-producto {
+        height: 121px;
+        transition: 0.3s ease-in-out;
+    }
+    .producto-tag .badge {
+        transition: 0.3s ease-in-out;
+        width: 100px;
+    }
+}
+
+@media (max-width:576px) {
+    .carousel-caption div p {
+        font-size: 20pt !important;
+        font-weight: 400;
+        color: white;
+        text-align-last: start;
+        line-height: 35px !important;
+        transition: 0.3s ease-in-out;
+    }
+
+    .seccion-productos div .row div {
+        width: 140px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .seccion-productos .container .row {
+        transition: 0.3s ease-in-out;
+        justify-content: space-between;
+    }
+
+    .card .card-body {
+        transition: 0.3s ease-in-out;
+        padding: 0 !important;
+        padding-bottom: 20px !important;
+    }
+
+    .seccion-productos .container .row div {
+        transition: 0.3s ease-in-out;
+        margin-right: 10px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .producto-tag .badge {
+        width: 100px;
+    }
+}
+
+/* Teléfonos medianos (hasta 480px) */
+@media (max-width: 480px) {
+    /* Ajustes para móviles más grandes */
+}
+
+
+/* Teléfonos pequeños (hasta 375px) */
+@media (max-width: 375px) {
+
+    /* Estilos para dispositivos pequeños como iPhone SE */
+    .seccion-productos {
+        padding: 0 !important;
+        padding-top: 30px !important;
+    }
+
+    .contenedor-producto img {
+        transition: 0.3s ease-in-out;
+        height: 77px !important;
+    }
+
+    .seccion-productos .container .row div {
+        transition: 0.3sease -in-out;
+        margin-right: 28px;
+        align-content: center;
+        justify-content: center;
+        width: 132px;
+    }
 }

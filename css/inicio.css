@@ -1,3 +1,5 @@
+/********** CAROUSEL****************/
+
 .carousel {
     height: 100vh;
     margin-top: -75px !important;
@@ -9,4 +11,174 @@
     height: 100%;
     object-fit: cover;
     /* Para que las imágenes se adapten sin deformarse */
+}
+
+/*Alínea los controles a los botones ooo del slider.*/
+.carousel-control-prev,
+.carousel-control-next {
+    margin-bottom: 11px !important;
+}
+
+.carousel-indicators button {
+    border-radius: 100%;
+    width: 5px !important;
+    height: 5px !important;
+}
+
+.carousel-indicators button.active {
+    background-color: #8bc53f !important;
+}
+
+/*Estilo de los textos del slider*/
+.carousel-caption div p {
+    font-size: 35pt;
+    font-weight: 400;
+    color: white;
+    text-align-last: start;
+    line-height: 60px;
+}
+
+/*Estilos del botón del slider*/
+.btn-dominus-carousel {
+    color: var(--color-dominus-green-dark);
+    font-size: 13pt;
+    background-color: white;
+    border: solid 1 px var(--color-dominus-green-dark);
+    width: 300px;
+    height: 55px;
+}
+
+/*Estilos del botón del slider con el cursor encima*/
+.btn-dominus-carousel:hover {
+    background-color: var(--color-dominus-green-dark);
+    color: white;
+}
+
+/* Reduce el brillo al 70% para que resalte el texto delantero.*/
+.efecto-oscuro {
+    filter: brightness(0.7);
+}
+
+
+/*****************************************************************/
+/******************* Productos cultivados ************************/
+/*****************************************************************/
+
+.contenedor-producto {
+    height: 182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-producto img {
+    height: 141px;
+    width: auto;
+}
+
+.contenedor-producto img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/*Etiqueta de producto congelado*/
+.producto-tag span {
+    width: 120px;
+}
+
+.producto-tag span:first-child {
+    background-color: var(--color-producto-congelado);
+
+    img {
+        filter: brightness(2000);
+    }
+}
+
+/*Etiqueta de producto fresco*/
+.producto-tag span:last-child {
+    background-color: var(--color-producto-fresco);
+
+    img {
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100);
+    }
+}
+
+/*****************************************************************/
+/********************* Fotos con textos **************************/
+/*****************************************************************/
+
+.seccion-frase {
+    height: 435px !important;
+
+}
+
+.seccion-mango,
+.seccion-calidad {
+    background-color: var(--color-background-seccion) !important;
+}
+
+
+
+.seccion-mango .seccion-mango-derecha {
+
+    background-image: url("../images/sectionmango.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 45px;
+}
+
+.seccion-mango .seccion-mango-izquierda p {
+    color: var(--color-dominus-green-dark) !important;
+    font-weight: 400;
+    font-size: 16pt !important;
+}
+
+.seccion-mango .seccion-mango-izquierda a {
+    color: var(--color-producto-fresco) !important;
+}
+
+.seccion-plantas {
+    background-color: var(--color-dominus-green-dark) !important;
+}
+
+.seccion-plantas .seccion-plantas-derecha {
+    background-image: url("../images/compromisoambiental.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 45px;
+}
+
+.seccion-plantas .seccion-plantas-izquierda {
+    background-color: var(--color-dominus-green-dark);
+}
+
+.seccion-plantas .seccion-plantas-izquierda a {
+    color: var(--color-background-seccion) !important;
+    width: 300px;
+
+}
+
+.seccion-plantas .seccion-plantas-izquierda p {
+    color: white !important;
+    width: 300px;
+    font-size: 16pt !important;
+
+}
+
+.seccion-calidad .seccion-calidad-derecha {
+    background-image: url("../images/calidadgrande.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 45px;
+
+}
+
+.seccion-calidad .seccion-calidad-izquierda p {
+    color: var(--color-dominus-green-dark) !important;
+    font-weight: 400;
+    font-size: 16pt !important;
+}
+
+.seccion-calidad .seccion-calidad-izquierda a {
+    color: var(--color-producto-fresco) !important;
 }
