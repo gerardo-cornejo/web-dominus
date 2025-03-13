@@ -32,7 +32,7 @@
     .seccion-mango .row div,
     .seccion-plantas .row div,
     .seccion-calidad .row div {
-        width: 490px !important;
+        width: 50% !important;
         height: 360px !important;
         transition: 0.3s ease-in-out;
         font-size: 15pt !important;
@@ -93,9 +93,22 @@
     .seccion-mango .row div,
     .seccion-plantas .row div,
     .seccion-calidad .row div {
-        width: 373px !important;
+        width: 50% !important;
         height: 260px !important;
         transition: 0.3s ease-in-out;
+
+        p {
+            font-size: 15pt !important;
+        }
+
+        a {
+            font-size: 15pt !important;
+        }
+    }
+
+    /*Alinear bien la imagen*/
+    .seccion-calidad .seccion-calidad-derecha {
+        background-position-x: -122px !important;
     }
 }
 
@@ -140,9 +153,26 @@
     .seccion-mango .row div,
     .seccion-plantas .row div,
     .seccion-calidad .row div {
-        width: 212px !important;
+        width: 50% !important;
         height: 360px !important;
         transition: 0.3s ease-in-out;
+
+        p {
+            font-size: 12pt !important;
+            width: auto !important;
+        }
+
+        a {
+            font-size: 12pt !important;
+            text-align: center;
+            width: auto !important;
+
+        }
+    }
+
+    /*Alinear bien la imagen*/
+    .seccion-calidad .seccion-calidad-derecha {
+        background-position-x: -291px !important;
     }
 }
 
@@ -172,13 +202,85 @@
     .seccion-mango .row div,
     .seccion-plantas .row div,
     .seccion-calidad .row div {
-        width: 240px !important;
+        width: 50% !important;
         max-width: 240px !important;
         height: 360px !important;
         transition: 0.3s ease-in-out;
+
+        p {
+            font-size: 14pt !important;
+        }
+
+        a {
+            font-size: 14pt !important;
+        }
+    }
+
+    /*Alinear bien la imagen*/
+    .seccion-calidad .seccion-calidad-derecha {
+        background-position-x: -321px !important;
     }
 }
 
+@media(max-width:425px) {
+
+    .seccion-plantas .seccion-plantas-izquierda p,
+    .seccion-plantas .seccion-plantas-izquierda a {
+        width: auto !important;
+    }
+
+    .seccion-mango .row div,
+    .seccion-plantas .row div,
+    .seccion-calidad .row div {
+        width: 50% !important;
+        max-width: 240px !important;
+        height: 360px !important;
+        transition: 0.3s ease-in-out;
+
+        p {
+            font-size: 12pt !important;
+        }
+
+        a {
+            font-size: 12pt !important;
+        }
+    }
+
+    /*Alinear bien la imagen*/
+    .seccion-calidad .seccion-calidad-derecha {
+        background-position-x: -321px !important;
+    }
+}
+
+@media(max-width:393px) {
+
+    .seccion-plantas .seccion-plantas-izquierda p,
+    .seccion-plantas .seccion-plantas-izquierda a {
+        width: auto !important;
+    }
+
+    .seccion-mango .row div,
+    .seccion-plantas .row div,
+    .seccion-calidad .row div {
+        width: 50% !important;
+        max-width: 240px !important;
+        height: 360px !important;
+        transition: 0.3s ease-in-out;
+
+        p {
+            font-size: 12pt !important;
+        }
+
+        a {
+            font-size: 12pt !important;
+        }
+    }
+
+    /*Alinear bien la imagen*/
+    .seccion-calidad .seccion-calidad-derecha {
+        background-position-x: -321px;
+    }
+}
 
 /* Teléfonos pequeños (hasta 375px) */
 @media (max-width: 375px) {
@@ -201,4 +303,34 @@
         justify-content: center;
         width: 132px;
     }
+
+    /*******************************Sección frases********************************/
+
+
+    .seccion-mango .row div,
+    .seccion-plantas .row div,
+    .seccion-calidad .row div {
+        width: 50% !important;
+        max-width: 240px !important;
+        height: 360px !important;
+        transition: 0.3s ease-in-out;
+        padding: 17px !important;
+
+        p {
+            font-size: 10pt !important;
+            width: 100% !important;
+        }
+
+        a {
+            font-size: 10pt !important;
+            width: 100% !important;
+
+        }
+    }
+
+    /*Alinear bien la imagen*/
+    .seccion-calidad .seccion-calidad-derecha {
+        background-position-x: -321px;
+    }
+
 }

@@ -182,3 +182,31 @@
 .seccion-calidad .seccion-calidad-izquierda a {
     color: var(--color-producto-fresco) !important;
 }
+
+/*****************************************************************/
+/********************* Sección de certificaciones **************************/
+/*****************************************************************/
+
+.certificaciones .row {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+.certificaciones .row .card {
+    width: 165px;
+    height: 155px;
+
+}
+
+.certificaciones .row .card .card-header img {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.slow-fade {
+    animation: fadeIn 2s;
+}   
