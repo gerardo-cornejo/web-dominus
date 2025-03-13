@@ -17,13 +17,39 @@
         height: 45px;
         transition: 0.3s ease-in-out;
     }
+
     .producto-tag .badge {
         transition: 0.3s ease-in-out;
         width: 120px;
     }
+
     .contenedor-producto img {
         transition: 0.3s ease-in-out;
         height: 135px !important;
+    }
+
+    /*******************************Sección frases********************************/
+    .seccion-mango .row div,
+    .seccion-plantas .row div,
+    .seccion-calidad .row div {
+        width: 490px !important;
+        height: 360px !important;
+        transition: 0.3s ease-in-out;
+        font-size: 15pt !important;
+    }
+
+    .seccion-mango-izquierda {
+        padding-left: 10px !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .seccion-calidad-izquierda {
+        padding-left: 10px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
     }
 }
 
@@ -56,9 +82,20 @@
         height: 121px;
         transition: 0.3s ease-in-out;
     }
+
     .producto-tag .badge {
         transition: 0.3s ease-in-out;
         width: 100px;
+    }
+
+    /*******************************Sección frases********************************/
+
+    .seccion-mango .row div,
+    .seccion-plantas .row div,
+    .seccion-calidad .row div {
+        width: 373px !important;
+        height: 260px !important;
+        transition: 0.3s ease-in-out;
     }
 }
 
@@ -98,11 +135,48 @@
     .producto-tag .badge {
         width: 100px;
     }
+
+    /*******************************Sección frases********************************/
+    .seccion-mango .row div,
+    .seccion-plantas .row div,
+    .seccion-calidad .row div {
+        width: 212px !important;
+        height: 360px !important;
+        transition: 0.3s ease-in-out;
+    }
 }
 
 /* Teléfonos medianos (hasta 480px) */
 @media (max-width: 480px) {
-    /* Ajustes para móviles más grandes */
+
+    /* Estilos para dispositivos pequeños como iPhone SE */
+    .seccion-productos {
+        padding: 0 !important;
+        padding-top: 30px !important;
+    }
+
+    .contenedor-producto img {
+        transition: 0.3s ease-in-out;
+        height: 77px !important;
+    }
+
+    .seccion-productos .container .row div {
+        transition: 0.3sease -in-out;
+        margin-right: 28px;
+        align-content: center;
+        justify-content: center;
+        width: 167px;
+    }
+
+    /*******************************Sección frases********************************/
+    .seccion-mango .row div,
+    .seccion-plantas .row div,
+    .seccion-calidad .row div {
+        width: 240px !important;
+        max-width: 240px !important;
+        height: 360px !important;
+        transition: 0.3s ease-in-out;
+    }
 }
 
 
