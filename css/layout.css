@@ -1,4 +1,4 @@
-/*Variables CSS.*/
+/*Variables CSS y clases reutilizables.*/
 :root {
   --color-dominus: #e63312;
   --color-dominus-dark: #97220D;
@@ -6,25 +6,32 @@
   --color-producto-congelado: #2d2d7c;
   --color-producto-fresco: #009b49;
   --color-background-seccion: #f7ffe8;
+  --color-dominus-green-light: #e7f9c5;
 
 }
 
+/*Texto de botón dominus */
 .text-dominus {
   color: var(--color-dominus);
 }
 
+/*Texto de botón dominus dark*/
 .text-dominus-dark {
   color: var(--color-dominus-dark);
 }
 
-/******* navbar ******/
-.navbar {
-  /*Background negro-transparente*/
-  background: linear-gradient(to bottom, black, transparent);
-  /*Sobreponerse a otros objetos*/
-  z-index: 999;
-
+/*Clase que tiene los atributos para pintar un div completamnete*/
+.bg-imagen-fullscreen {
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.2);
 }
+
+/*******************************************/
+/************** navbar *********************/
+/*******************************************/
 
 .navbar-brand img {
   height: 50px;
@@ -38,7 +45,8 @@ a.nav-link {
 
 a.nav-link.text-white.active {
   font-weight: bold !important;
-  /*Negrita para cuando estés en la página visitada*/
+  color: var(--color-producto-fresco) !important;
+  text-decoration-line: underline;
 }
 
 .navbar ul li {
@@ -66,4 +74,3 @@ a.nav-link.text-white.active {
   filter: invert(100%);
   /* Invierte colores para hacer el ícono blanco */
 }
-

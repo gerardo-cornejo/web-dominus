@@ -26,7 +26,13 @@ $(document).on("click", ".btn-prev", () => {
   $(".certificaciones .row").prepend(card);
 });
 
+function actualizarAnio(){
+  let anio = new Date().getFullYear();
+  $("#footer-year").text(anio);
+}
+
 $(document).ready(function () {
   checkearPosicionScroll();
   window.addEventListener("scroll", checkearPosicionScroll);
+  actualizarAnio();
 });

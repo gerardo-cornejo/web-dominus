@@ -1,0 +1,40 @@
+@media (max-width:992px) {
+    /***************************************/
+    /******** Sección propósito ************/
+    /***************************************/
+
+    .seccion-proposito {
+        background-size: cover;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {}
+
+@media (max-width: 480px) {}
+
+@media(max-width:425px) {}
+
+@media(max-width:393px) {}
+
+@media (max-width: 375px) {
+    /***************************************/
+    /******** Sección propósito ************/
+    /***************************************/
+
+    .seccion-proposito {
+        background-size: cover;
+        text-align: center;
+        padding: 10px 15px !important;
+    }
+
+    /*Hojitas */
+    .seccion-proposito .superior img {
+        height: 50px;
+    }
+    .seccion-proposito .inferior p {
+        font-size: 15pt !important;
+    }
+}

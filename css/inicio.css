@@ -1,3 +1,14 @@
+/*****************************************************************/
+/************************* Navbar distinto para index *************************/
+/*****************************************************************/
+.navbar {
+    /*Background negro-transparente*/
+    background: linear-gradient(to bottom, black, transparent);
+    /*Sobreponerse a otros objetos*/
+    z-index: 999;
+
+}
+
 /********** CAROUSEL****************/
 
 .carousel {
@@ -63,6 +74,12 @@
 /*****************************************************************/
 /******************* Productos cultivados ************************/
 /*****************************************************************/
+.seccion-productos .card {
+    background-image: url('../images/aspa.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 .contenedor-producto {
     height: 182px;
@@ -177,13 +194,13 @@
     color: var(--color-dominus-green-dark) !important;
     font-weight: 400;
     font-size: 19pt !important;
-    margin:0 0 0 30px;
+    margin: 0 0 0 30px;
 }
 
 .seccion-calidad .seccion-calidad-izquierda a {
     color: var(--color-producto-fresco) !important;
     font-size: 14pt !important;
-    margin:10px 0 0 30px;
+    margin: 10px 0 0 30px;
 
 }
 
