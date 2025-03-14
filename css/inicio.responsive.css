@@ -31,9 +31,9 @@
     /*******************************Sección frases********************************/
     .seccion-mango .row div,
     .seccion-plantas .row div,
-    .seccion-calidad .row div {
+    .seccion-calidad .row div,
+    .seccion-importacion .row div {
         width: 50% !important;
-        height: 360px !important;
         transition: 0.3s ease-in-out;
         font-size: 15pt !important;
     }
@@ -51,6 +51,18 @@
         flex-direction: column !important;
         align-items: center !important;
     }
+
+    /***********************************************/
+    /********* seccion frases 2 ********************/
+    /***********************************************/
+
+    .seccion-importacion-izquierda,
+    .seccion-importacion-derecha {
+        width: 50% !important;
+        height: 360px !important;
+        transition: 0.3s ease-in-out;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -92,9 +104,9 @@
 
     .seccion-mango .row div,
     .seccion-plantas .row div,
-    .seccion-calidad .row div {
+    .seccion-calidad .row div,
+    .seccion-importacion .row div {
         width: 50% !important;
-        height: 260px !important;
         transition: 0.3s ease-in-out;
 
         p {
@@ -109,6 +121,37 @@
     /*Alinear bien la imagen*/
     .seccion-calidad .seccion-calidad-derecha {
         background-position-x: -122px !important;
+    }
+
+    /***********************************************/
+    /********* seccion frases 2 ********************/
+    /***********************************************/
+
+    .seccion-importacion-izquierda,
+    .seccion-importacion-derecha {
+        width: 50% !important;
+        height: 360px !important;
+        transition: 0.3s ease-in-out;
+    }
+
+    .seccion-importacion .seccion-importacion-izquierda p:first-child {
+        color: var(--color-producto-fresco) !important;
+        font-weight: 400;
+        font-size: 23pt !important;
+
+    }
+
+    /*Texto de la segunda etiqueta p*/
+    .seccion-importacion .seccion-importacion-izquierda p:nth-last-child(2) {
+
+        font-weight: 400;
+        font-size: 23pt !important;
+    }
+
+    /*Estilo del enlace */
+    .seccion-importacion .seccion-importacion-izquierda a {
+        margin-top: 23px;
+        font-size: 20px;
     }
 }
 
@@ -174,6 +217,32 @@
     .seccion-calidad .seccion-calidad-derecha {
         background-position-x: -291px !important;
     }
+
+
+    /***********************************************/
+    /********* seccion frases 2 ********************/
+    /***********************************************/
+
+    .seccion-importacion .seccion-importacion-izquierda p:first-child {
+        color: var(--color-producto-fresco) !important;
+        font-weight: 400;
+        font-size: 17pt !important;
+
+    }
+
+    /*Texto de la segunda etiqueta p*/
+    .seccion-importacion .seccion-importacion-izquierda p:nth-last-child(2) {
+
+        font-weight: 400;
+        font-size: 20pt !important;
+        text-align: center;
+    }
+
+    /*Estilo del enlace */
+    .seccion-importacion .seccion-importacion-izquierda a {
+        margin-top: 23px;
+        font-size: 18px;
+    }
 }
 
 /* Teléfonos medianos (hasta 480px) */
@@ -220,6 +289,69 @@
     .seccion-calidad .seccion-calidad-derecha {
         background-position-x: -321px !important;
     }
+
+    /******* MAPA *******/
+    .map-container {
+        height: 330px !important;
+    }
+
+    .dropdown button {
+        font-size: 8pt !important;
+        padding: 3px !important;
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+
+    }
+
+    .dropdown-menu {
+        padding: 0 !important;
+        height: 80px !important;
+        --bs-dropdown-min-width: 6rem;
+        transition: 0.3s ease-in-out;
+
+    }
+
+    .dropdown-menu li {
+        font-size: 8pt !important;
+        --bs-dropdown-min-width: 6rem;
+    }
+
+    .south-america {
+        bottom: 27% !important;
+        left: 2% !important;
+    }
+
+    .central-america {
+        top: 43% !important;
+        left: 22% !important;
+    }
+
+    /***********************************************/
+    /********* seccion frases 2 ********************/
+    /***********************************************/
+
+    .seccion-importacion .seccion-importacion-izquierda p:first-child {
+        color: var(--color-producto-fresco) !important;
+        font-weight: 400;
+        font-size: 17pt !important;
+        text-align: center;
+
+
+    }
+
+    /*Texto de la segunda etiqueta p*/
+    .seccion-importacion .seccion-importacion-izquierda p:nth-last-child(2) {
+
+        font-weight: 400;
+        font-size: 20pt !important;
+        text-align: center;
+    }
+
+    /*Estilo del enlace */
+    .seccion-importacion .seccion-importacion-izquierda a {
+        margin-top: 23px;
+        font-size: 18px;
+    }
 }
 
 @media(max-width:425px) {
@@ -249,6 +381,33 @@
     /*Alinear bien la imagen*/
     .seccion-calidad .seccion-calidad-derecha {
         background-position-x: -321px !important;
+    }
+
+    /***********************************************/
+    /********* seccion frases 2 ********************/
+    /***********************************************/
+
+    .seccion-importacion .seccion-importacion-izquierda p:first-child {
+        color: var(--color-producto-fresco) !important;
+        font-weight: 400;
+        font-size: 17pt !important;
+        text-align: center;
+
+
+    }
+
+    /*Texto de la segunda etiqueta p*/
+    .seccion-importacion .seccion-importacion-izquierda p:nth-last-child(2) {
+
+        font-weight: 400;
+        font-size: 20pt !important;
+        text-align: center;
+    }
+
+    /*Estilo del enlace */
+    .seccion-importacion .seccion-importacion-izquierda a {
+        margin-top: 23px;
+        font-size: 18px;
     }
 }
 
@@ -280,6 +439,34 @@
     .seccion-calidad .seccion-calidad-derecha {
         background-position-x: -321px;
     }
+
+    /***********************************************/
+    /********* seccion frases 2 ********************/
+    /***********************************************/
+
+    .seccion-importacion .seccion-importacion-izquierda p:first-child {
+        color: var(--color-producto-fresco) !important;
+        font-weight: 400;
+        font-size: 19pt !important;
+        text-align: center;
+
+
+    }
+
+    /*Texto de la segunda etiqueta p*/
+    .seccion-importacion .seccion-importacion-izquierda p:nth-last-child(2) {
+
+        font-weight: 400;
+        font-size: pt !important;
+        text-align: center;
+    }
+
+    /*Estilo del enlace */
+    .seccion-importacion .seccion-importacion-izquierda a {
+        margin-top: 23px;
+        font-size: 18px;
+    }
+
 }
 
 /* Teléfonos pequeños (hasta 375px) */
@@ -333,4 +520,16 @@
         background-position-x: -321px;
     }
 
+    .seccion-vacantes .seccion-vacantes-derecha {
+        background-position-x: -381px;
+        border-bottom-right-radius: 45px;
+    }
+
+    .seccion-vacantes .seccion-vacantes-izquierda p {
+        font-size: 20pt !important;
+    }
+
+    .seccion-vacantes .seccion-vacantes-izquierda a {
+        font-size: 14pt;
+    }
 }

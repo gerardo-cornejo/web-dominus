@@ -207,6 +207,171 @@
     height: 60px !important;
 }
 
-.slow-fade {
-    animation: fadeIn 2s;
-}   
+/*****************************************************************/
+/************************ Sección mapa ***************************/
+/*****************************************************************/
+.map-container {
+    position: relative;
+    padding: 0px 120px;
+    width: 100%;
+
+    aspect-ratio: 2 / 1;
+    background-image: url(../images/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown button {
+    font-size: 16px;
+    color: #003300;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dropdown button::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #003300;
+    display: inline-block;
+    margin-left: auto;
+}
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #003300;
+}
+
+.dropdown-menu li img {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.north-america {
+    top: 20%;
+    left: 20%;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+
+.central-america {
+    top: 40%;
+    left: 30%;
+}
+
+.south-america {
+    bottom: 15%;
+    left: 30%;
+}
+
+.europe {
+    top: 25%;
+    left: 55%;
+}
+
+.asia {
+    top: 30%;
+    left: 75%;
+}
+
+/*****************************************************************/
+/************************ Sección frases 2 *************************/
+/*****************************************************************/
+
+/*Imagen completa al lado derecho*/
+
+.seccion-importacion .seccion-importacion-derecha {
+    background-image: url("../images/sectionrepresentantes.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 45px;
+}
+
+/*Texto de la primera etiqueta p*/
+.seccion-importacion .seccion-importacion-izquierda p:first-child {
+    color: var(--color-producto-fresco) !important;
+    font-weight: 400;
+    font-size: 20pt !important;
+
+}
+
+/*Texto de la segunda etiqueta p*/
+.seccion-importacion .seccion-importacion-izquierda p:nth-last-child(2) {
+    color: var(--color-dominus-green-dark) !important;
+    font-weight: 400;
+    font-size: 20pt !important;
+}
+
+/*Estilo del enlace */
+.seccion-importacion .seccion-importacion-izquierda a {
+    margin-top: 20px;
+    background-color: var(--color-producto-fresco) !important;
+}
+
+.seccion-vacantes .seccion-vacantes-derecha {
+    background-image: url("../images/seccionvacantes.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 45px;
+
+}
+
+.seccion-vacantes .seccion-vacantes-izquierda p {
+    color: var(--color-dominus-green-dark) !important;
+}
+
+.seccion-vacantes .seccion-vacantes-izquierda a {
+    background-color: var(--color-producto-fresco) !important;
+}
