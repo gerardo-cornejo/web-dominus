@@ -176,11 +176,15 @@
 .seccion-calidad .seccion-calidad-izquierda p {
     color: var(--color-dominus-green-dark) !important;
     font-weight: 400;
-    font-size: 16pt !important;
+    font-size: 19pt !important;
+    margin:0 0 0 30px;
 }
 
 .seccion-calidad .seccion-calidad-izquierda a {
     color: var(--color-producto-fresco) !important;
+    font-size: 14pt !important;
+    margin:10px 0 0 30px;
+
 }
 
 /*****************************************************************/
@@ -343,7 +347,7 @@
 .seccion-importacion .seccion-importacion-izquierda p:first-child {
     color: var(--color-producto-fresco) !important;
     font-weight: 400;
-    font-size: 20pt !important;
+    font-size: 30pt !important;
 
 }
 
@@ -351,13 +355,15 @@
 .seccion-importacion .seccion-importacion-izquierda p:nth-last-child(2) {
     color: var(--color-dominus-green-dark) !important;
     font-weight: 400;
-    font-size: 20pt !important;
+    font-size: 25pt !important;
 }
 
 /*Estilo del enlace */
 .seccion-importacion .seccion-importacion-izquierda a {
-    margin-top: 20px;
+    margin-top: 22px;
     background-color: var(--color-producto-fresco) !important;
+    font-size: 15pt !important;
+
 }
 
 .seccion-vacantes .seccion-vacantes-derecha {
@@ -370,8 +376,12 @@
 
 .seccion-vacantes .seccion-vacantes-izquierda p {
     color: var(--color-dominus-green-dark) !important;
+    font-size: 23pt !important;
+    margin: 0 40px 0 40px;
 }
 
 .seccion-vacantes .seccion-vacantes-izquierda a {
     background-color: var(--color-producto-fresco) !important;
+    font-size: 18pt !important;
+    margin: 30px 40px 0 40px;
 }
