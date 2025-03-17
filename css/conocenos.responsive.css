@@ -43,6 +43,37 @@
         margin-bottom: 164px !important;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     }
+
+    /***************************************/
+    /********** Sección principios *********/
+    /***************************************/
+
+    .seccion-principios .d-flex:last-child {
+        justify-content: left !important;
+    }
+
+    .seccion-principios .card {
+        width: 157px !important;
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+    }
+
+    .seccion-principios .card .card-body {
+        padding: 10px !important;
+    }
+
+    .seccion-principios .d-flex {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+    }
+
+    .seccion-principios .card .card-header {
+        height: 82px;
+    }
+
+    .seccion-principios .card .card-header img {
+        height: 50px !important;
+    }
 }
 
 @media(max-width:393px) {
@@ -52,6 +83,37 @@
         width: 100% !important;
         margin-bottom: 164px !important;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    /***************************************/
+    /********** Sección principios *********/
+    /***************************************/
+
+    .seccion-principios .d-flex {
+        justify-content: left !important;
+    }
+
+    .seccion-principios .card {
+        width: 157px !important;
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+    }
+
+    .seccion-principios .card .card-body {
+        padding: 10px !important;
+    }
+
+    .seccion-principios .d-flex {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+    }
+
+    .seccion-principios .card .card-header {
+        height: 82px;
+    }
+
+    .seccion-principios .card .card-header img {
+        height: 50px !important;
     }
 }
 
@@ -76,5 +138,36 @@
         width: 100% !important;
         margin-bottom: 164px !important;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    /***************************************/
+    /********** Sección principios *********/
+    /***************************************/
+
+    .seccion-principios .d-flex {
+        justify-content: left !important;
+    }
+
+    .seccion-principios .card {
+        width: 157px !important;
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+    }
+
+    .seccion-principios .card .card-body {
+        padding: 10px !important;
+    }
+
+    .seccion-principios .d-flex {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+    }
+
+    .seccion-principios .card .card-header {
+        height: 82px;
+    }
+
+    .seccion-principios .card .card-header img {
+        height: 50px !important;
     }
 }

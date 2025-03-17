@@ -1,3 +1,15 @@
+/*************************************/
+/********** General Styles ***********/
+/*************************************/
+:root {
+    --color-integridad: #e0e0f4 !important;
+    --color-respeto: #ffe3cb !important;
+    --color-excelencia: #fff7de !important;
+    --color-adaptacion: #e7f9c5 !important;
+    --color-pasion: #ffe6e1 !important;
+}
+
+
 .navbar {
     /*Background negro-transparente*/
     background-color: white !important;
@@ -20,7 +32,7 @@
 
 .seccion-proposito {
     background-image: url('../images/proposito.jpg');
-    background-size: 150%;
+    background-size: 100%;
     background-position: top;
 }
 
@@ -51,4 +63,57 @@
 .overlay-bottom {
     bottom: 0;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+}
+
+/*************************************/
+/******** seccion principios **********/
+/*************************************/
+
+.seccion-principios .card {
+    width: 170px !important;
+    margin-right: 15px !important;
+}
+
+.seccion-principios .card .card-header {
+    height: 84px;
+}
+
+.seccion-principios .card .card-body p {
+    font-size: 10pt !important;
+}
+
+.seccion-principios .card .card-header img {
+    height: auto !important;
+}
+
+
+.seccion-principios .card:nth-child(2),
+.seccion-principios .card:nth-child(4) {
+    margin-top: 23px !important;
+}
+
+.seccion-principios .card:nth-child(1),
+.seccion-principios .card:nth-child(3),
+.seccion-principios .card:nth-child(5) {
+    margin-bottom: 23px !important;
+}
+
+.card-integridad {
+    background-color: var(--color-integridad);
+}
+
+.card-respeto {
+    background-color: var(--color-respeto);
+}
+
+.card-excelencia {
+    background-color: var(--color-excelencia);
+}
+
+.card-adaptacion {
+    background-color: var(--color-adaptacion);
+}
+
+.card-pasion {
+    background-color: var(--color-pasion);
 }

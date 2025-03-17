@@ -6,13 +6,23 @@
     background: linear-gradient(to bottom, black, transparent);
     /*Sobreponerse a otros objetos*/
     z-index: 999;
-
 }
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+    /* Invierte colores para hacer el ícono blanco */
+}
+
+.navbar-toggler {
+    border-color: #fff !important;
+    /* Cambia el color del borde a blanco */
+}
+
 
 /********** CAROUSEL****************/
 
 .carousel {
-    height: 100vh;
+    height: 100vh !important;
     margin-top: -75px !important;
 }
 
@@ -41,27 +51,37 @@
 }
 
 /*Estilo de los textos del slider*/
+.carousel-caption {
+    top: 400px;
+}
+
+.carousel-caption div {
+    width: 568px;
+    height: 160.19px;
+}
+
 .carousel-caption div p {
-    font-size: 35pt;
     font-weight: 400;
-    color: white;
-    text-align-last: start;
-    line-height: 60px;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: 0%;
 }
 
 /*Estilos del botón del slider*/
 .btn-dominus-carousel {
+    margin-top: 20px;
+    width: 256px;
+    height: 48.06px;
+    border-radius: 8px;
+    background-color: #E7F9C5 !important;
+    border-color: #E7F9C5 !important;
     color: var(--color-dominus-green-dark);
-    font-size: 13pt;
-    background-color: white;
-    border: solid 1 px var(--color-dominus-green-dark);
-    width: 300px;
-    height: 55px;
 }
 
 /*Estilos del botón del slider con el cursor encima*/
 .btn-dominus-carousel:hover {
-    background-color: var(--color-dominus-green-dark);
+    background-color: var(--color-dominus-green-dark) !important;
+    border-color: var(--color-dominus-green-dark) !important;
     color: white;
 }
 
@@ -70,6 +90,9 @@
     filter: brightness(0.7);
 }
 
+* {
+    border: solid 1px red;
+}
 
 /*****************************************************************/
 /******************* Productos cultivados ************************/
@@ -79,17 +102,19 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    width: 352px !important;
+    height: 350px !important;
 }
 
 .contenedor-producto {
-    height: 182px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contenedor-producto img {
-    height: 141px;
+    height: 200px;
     width: auto;
 }
 
@@ -100,10 +125,14 @@
 
 /*Etiqueta de producto congelado*/
 .producto-tag span {
-    width: 120px;
+    width: 108px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+
 }
 
-.producto-tag span:first-child {
+.producto-tag-congelado {
     background-color: var(--color-producto-congelado);
 
     img {
@@ -112,7 +141,7 @@
 }
 
 /*Etiqueta de producto fresco*/
-.producto-tag span:last-child {
+.producto-tag-fresco {
     background-color: var(--color-producto-fresco);
 
     img {
@@ -125,7 +154,7 @@
 /*****************************************************************/
 
 .seccion-frase {
-    height: 435px !important;
+    height: 592px !important;
 
 }
 
@@ -137,21 +166,31 @@
 
 
 .seccion-mango .seccion-mango-derecha {
-
-    background-image: url("../images/sectionmango.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url(../images/sectionmango.jpg);
+    background-size: 186%;
+    background-position-x: 1011px;
+    background-position-y: -81px;
     border-top-right-radius: 45px;
 }
 
-.seccion-mango .seccion-mango-izquierda p {
-    color: var(--color-dominus-green-dark) !important;
-    font-weight: 400;
-    font-size: 16pt !important;
+.seccion-mango .seccion-mango-izquierda div {
+    width: 352px;
+    height: 84px;
+    margin-left: 20px;
 }
 
-.seccion-mango .seccion-mango-izquierda a {
+.seccion-mango .seccion-mango-izquierda div p {
+    color: var(--color-dominus-green-dark) !important;
+    font-weight: 400;
+    font-size: 24px !important;
+    line-height: 30px;
+}
+
+.seccion-mango .seccion-mango-izquierda div a {
     color: var(--color-producto-fresco) !important;
+    font-weight: 700;
+    size: 14px;
+    line-height: 24px;
 }
 
 .seccion-plantas {

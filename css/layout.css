@@ -39,7 +39,7 @@
 }
 
 a.nav-link {
-  font-size: 11pt;
+  font-size: 14px;
   /*Tamaño delas  opciones del navbar*/
 }
 
@@ -63,14 +63,4 @@ a.nav-link.text-white.active {
   background-color: var(--color-dominus-dark);
   color: white;
 
-}
-
-.navbar-toggler {
-  border-color: #fff !important;
-  /* Cambia el color del borde a blanco */
-}
-
-.navbar-toggler-icon {
-  filter: invert(100%);
-  /* Invierte colores para hacer el ícono blanco */
 }
