@@ -15,18 +15,22 @@ function checkearPosicionScroll() {
 
 $(document).on("click", ".btn-next", () => {
   //mover el primer elmento de .certificaciones .row .card al final de forma suave
-  let card = $(".certificaciones .row .card").first();
-  $(".certificaciones .row").append(card);
-
+  let card = $(".seccion-certificaciones div .cards .card").first();
+  let cloned = card.clone();
+  $(".seccion-certificaciones div .cards").append(cloned);
+  card.remove();
 });
+
 
 $(document).on("click", ".btn-prev", () => {
   //mover el ultimo elmento de .certificaciones .row .card al principio de forma suave
-  let card = $(".certificaciones .row .card").last();
-  $(".certificaciones .row").prepend(card);
+  let card = $(".seccion-certificaciones div .cards .card").last();
+  let cloned = card.clone();
+  $(".seccion-certificaciones div .cards").prepend(cloned);
+  card.remove();
 });
 
-function actualizarAnio(){
+function actualizarAnio() {
   let anio = new Date().getFullYear();
   $("#footer-year").text(anio);
 }

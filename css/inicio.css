@@ -237,15 +237,15 @@
 
 .seccion-calidad .seccion-calidad-izquierda p {
     color: var(--color-dominus-green-dark) !important;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
+    font-weight: 400;
+    font-size: 24px !important;
+    line-height: 30px;
 }
 
 .seccion-calidad .seccion-calidad-izquierda a {
     color: var(--color-producto-fresco) !important;
-    font-size: 14px;
     font-weight: 700;
+    font-size: 14px;
     line-height: 24px;
 
 
@@ -255,24 +255,43 @@
 /********************* Sección de certificaciones **************************/
 /*****************************************************************/
 
-.certificaciones .row {
+.seccion-certificaciones .cards {
     display: flex !important;
     flex-direction: row;
     flex-wrap: nowrap;
-    overflow: hidden;
-    justify-content: center;
+    overflow-x: hidden;
+    height: 230px;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.seccion-certificaciones .cards .card {
+    flex: 0 0 calc(25% - 20px);
+    /* Ensures a maximum of 4 cards visible */
+    width: 256px !important;
+    height: 184px !important;
+    cursor: pointer;
+    user-select: none;
 
 }
 
-.certificaciones .row .card {
-    width: 165px;
-    height: 155px;
-
+.seccion-certificaciones .cards .card .card-body .card-title {
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 500;
 }
 
-.certificaciones .row .card .card-header img {
-    width: 60px !important;
-    height: 60px !important;
+.seccion-certificaciones .cards .card .card-header img {
+    width: 104px !important;
+    height: 104px !important;
+}
+
+.seccion-certificaciones .container button:active,
+.seccion-certificaciones .container button:focus,
+.seccion-certificaciones .container button:hover,
+.seccion-certificaciones .container button:visited,
+.seccion-certificaciones .container button {
+    border: 0px !important;
 }
 
 /*****************************************************************/
@@ -282,7 +301,6 @@
     position: relative;
     padding: 0px 120px;
     width: 100%;
-
     aspect-ratio: 2 / 1;
     background-image: url(../images/mapa.jpg);
     background-size: cover;
@@ -407,26 +425,35 @@
     border-top-left-radius: 45px;
 }
 
+.seccion-importacion .seccion-importacion-izquierda {
+    background-color: var(--color-background-seccion) !important;
+}
+
 /*Texto de la primera etiqueta p*/
-.seccion-importacion .seccion-importacion-izquierda p:first-child {
+.seccion-importacion .seccion-importacion-izquierda div div p:first-child {
     color: var(--color-producto-fresco) !important;
-    font-weight: 400;
-    font-size: 30pt !important;
+    font-weight: 500;
+    font-size: 32px !important;
 
 }
 
 /*Texto de la segunda etiqueta p*/
-.seccion-importacion .seccion-importacion-izquierda p:nth-last-child(2) {
+.seccion-importacion .seccion-importacion-izquierda div div p:nth-last-child(2) {
     color: var(--color-dominus-green-dark) !important;
-    font-weight: 400;
-    font-size: 25pt !important;
+    font-weight: 500;
+    font-size: 32px !important;
 }
 
 /*Estilo del enlace */
-.seccion-importacion .seccion-importacion-izquierda a {
+.seccion-importacion .seccion-importacion-izquierda div a {
     margin-top: 22px;
     background-color: var(--color-producto-fresco) !important;
-    font-size: 15pt !important;
+    width: 256px;
+    height: 48px;
+    line-height: 239%;
+    font-weight: 400;
+    border-radius: 8px;
+    font-size: 14px !important;
 
 }
 
@@ -438,14 +465,31 @@
 
 }
 
-.seccion-vacantes .seccion-vacantes-izquierda p {
+.seccion-vacantes .seccion-vacantes-izquierda p:first-child {
     color: var(--color-dominus-green-dark) !important;
-    font-size: 23pt !important;
-    margin: 0 40px 0 40px;
+    font-size: 32px !important;
+    width: 352px;
+    height: 112px;
+    font-weight: 500 !important;
+
+    line-height: 40px;
+}
+.seccion-vacantes .seccion-vacantes-izquierda p:nth-last-child(2) {
+    width: 216px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
 }
 
 .seccion-vacantes .seccion-vacantes-izquierda a {
     background-color: var(--color-producto-fresco) !important;
-    font-size: 18pt !important;
-    margin: 30px 40px 0 40px;
+    width: 216px;
+    height: 49px;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 10px;
+    line-height: 199%;
+    font-weight: 400;
+    font-size: 14px;
+    
 }
