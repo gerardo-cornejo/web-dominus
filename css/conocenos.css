@@ -80,11 +80,18 @@
 /*************************************/
 /******** seccion principios **********/
 /*************************************/
+.seccion-principios .texto-inicial {
+    margin-top: 70px;
+}
 
 .seccion-principios .card {
     width: 192px !important;
     height: 220px !important;
     margin-right: 45px !important;
+}
+
+.seccion-principios .cards {
+    margin-bottom: 70px;
 }
 
 .seccion-principios .card .card-header {
@@ -93,13 +100,15 @@
 
 .seccion-principios .card .card-body p:first-child {
     font-weight: 700 !important;
-    font-size: 16pt !important;
+    font-size: 16px !important;
     line-height: 20px !important;
+    width: 153.6px;
+    height: 40px;
 }
 
 .seccion-principios .card .card-body p:last-child {
     font-weight: 400 !important;
-    font-size: 14pt !important;
+    font-size: 14px !important;
 }
 
 
@@ -111,7 +120,7 @@
 
 .seccion-principios .card:nth-child(2),
 .seccion-principios .card:nth-child(4) {
-   top: 23px !important;
+    top: 23px !important;
 }
 
 .seccion-principios .card:nth-child(1),
@@ -139,3 +148,7 @@
 .card-pasion {
     background-color: var(--color-pasion);
 }
+
+/*************************************/
+/******** seccion carrusel **********/
+/*************************************/
