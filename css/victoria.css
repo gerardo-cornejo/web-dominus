@@ -12,11 +12,11 @@ body {
 
 .nav-link.active {
     font-weight: bold;
-    color: #055125 !important;
+    color: #28a745 !important;
 }
 
 .btn-success {
-    background-color: #055125;
+    background-color: #28a745;
     border: none;
 }
 
@@ -25,19 +25,23 @@ body {
     padding-left: 0;
 }
 
+/* Aplica la fuente de layout.css al contenido textual */
 .contenido-textual {
     font-family: 'Helvetica Neue', sans-serif;
-    color: #333;
+    font-size: 14px; /* Tamaño adecuado para la lectura */
+    color: #333; /* Color neutro para mejor contraste */
+    line-height: 1.6; /* Mejora la legibilidad */
 }
+
 
 .contenido-textual h4 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
     margin-bottom: 15px;
 }
 
 .contenido-textual p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 12px;
 }
 
@@ -48,7 +52,7 @@ body {
 }
 
 .contenido-textual ul li {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 5px;
     padding-left: 15px;
     position: relative;
@@ -86,6 +90,7 @@ body {
     color: #207044; /* Verde oscuro */
     text-transform: uppercase;
     text-decoration: none;
+    margin-bottom: 50px;
 }
 
 .breadcrumb-item.active {
@@ -93,7 +98,7 @@ body {
 }
 
 .section-title {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 500;
     color: #025125; /* mismo verde oscuro */
     margin-top: 0;
@@ -105,10 +110,16 @@ h2 {
     font-weight: bold;
 }
 
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
 .card-img-top {
-    height: 550px;
+    height: 550px; /* Mantiene la altura exacta */
+    width: 100%;
     object-fit: cover;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px; /* Bordes inferiores redondeados */
 }
 
 h4 {
@@ -120,22 +131,19 @@ ul {
     padding-left: 1rem;
 }
 
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px; /* Elimina completamente el espacio entre imágenes */
+    flex-wrap: nowrap;
+}
+
 .gallery img {
-    height: 250px;
+    width: 270px; 
+    height: 270px;
     object-fit: cover;
-    margin-bottom: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.gallery .rounded-3 {
-    border-radius: 15px !important;
-}
-
-@media (max-width: 768px) {
-    .card-img-top {
-        height: 250px;
-    }
-
-    .gallery img {
-        height: 180px;
-    }
-}
