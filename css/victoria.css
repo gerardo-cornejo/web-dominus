@@ -1,0 +1,141 @@
+/* Estilos generales para Programa Victoria */
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #055125 !important;
+}
+
+.btn-success {
+    background-color: #055125;
+    border: none;
+}
+
+.breadcrumb {
+    background: none;
+    padding-left: 0;
+}
+
+.contenido-textual {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+}
+
+.contenido-textual h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contenido-textual p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.contenido-textual ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+
+.contenido-textual ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.contenido-textual ul li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    color: #333;
+}
+
+.contenido-textual {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+    padding-left: 90px; /* este padding moverá todo el contenido hacia la derecha */
+    margin-bottom: 80px;
+}
+
+.header-section {
+    padding-left: 75px; /* Ajusta según alineación deseada */
+    margin-bottom: 30px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.breadcrumb-item,
+.breadcrumb-item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #207044; /* Verde oscuro */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #025125;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #025125; /* mismo verde oscuro */
+    margin-top: 0;
+}
+
+
+h2 {
+    color: #2d572c;
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 550px;
+    object-fit: cover;
+    border-radius: 0 0 15px 15px;
+}
+
+h4 {
+    margin-top: 2rem;
+    color: #000000;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+.gallery img {
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.gallery .rounded-3 {
+    border-radius: 15px !important;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 250px;
+    }
+
+    .gallery img {
+        height: 180px;
+    }
+}
