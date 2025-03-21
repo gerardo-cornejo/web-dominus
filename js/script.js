@@ -40,3 +40,29 @@ $(document).ready(function () {
   window.addEventListener("scroll", checkearPosicionScroll);
   actualizarAnio();
 });
+
+
+const fontFolderPath = "/fonts";
+
+function cargarFuentes() {
+  fetch(fontFolderPath)
+    .then((response) => response.text())
+    .then((html) => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, "text/html");
+      const fontFiles = Array.from(doc.querySelectorAll("a"))
+        .map((link) => link.href)
+        .filter((href) => href.match(/\.(woff2?|ttf|otf|eot)$/i));
+
+      fontFiles.forEach((fontFile) => {
+        const fontFace = new FontFace(fontFile.split("/").pop(), `url(${fontFile})`);
+        fontFace.load().then((loadedFont) => {
+          document.fonts.add(loadedFont);
+         // console.log("Font loaded:", loadedFont);
+        });
+      });
+    })
+    .catch((error) => console.error("Error loading fonts:", error));
+}
+
+cargarFuentes();

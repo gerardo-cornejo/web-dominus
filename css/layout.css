@@ -1,5 +1,4 @@
 /*Variables CSS y clases reutilizables.*/
-@import url(https://fonts.cdnfonts.com/css/helvetica-neue);
 
 :root {
   --color-dominus: #e63312;
@@ -9,6 +8,10 @@
   --color-producto-fresco: #009b49;
   --color-background-seccion: #f7ffe8;
   --color-dominus-green-light: #e7f9c5;
+}
+
+* {
+  border: solid 1px red;
 }
 
 * {

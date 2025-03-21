@@ -32,21 +32,27 @@
 
 .seccion-proposito {
     background-image: url('../images/proposito.jpg');
-    background-size: 100%;
     background-position: top;
+    height: 1073px !important;
 }
 
 /*Hojitas */
 .seccion-proposito .superior img {
-    height: 100px;
+    width: 80px !important;
+    height: 47px !important;
 }
+
 
 /*Texto cultivamos el futuro*/
 .seccion-proposito .superior p {
-    font-size: 25pt;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 53px;
+    word-spacing: 0%;
 }
 
 .seccion-proposito .superior p span {
+
     color: var(--color-dominus-green-light);
 }
 
@@ -56,7 +62,13 @@
 }
 
 .seccion-proposito .inferior p {
-    font-size: 20pt !important;
+    width: 736px;
+    height: 116px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 
 /*Overlay (Zona oscura inferior)*/
@@ -70,26 +82,36 @@
 /*************************************/
 
 .seccion-principios .card {
-    width: 170px !important;
-    margin-right: 15px !important;
+    width: 192px !important;
+    height: 220px !important;
+    margin-right: 45px !important;
 }
 
 .seccion-principios .card .card-header {
     height: 84px;
 }
 
-.seccion-principios .card .card-body p {
-    font-size: 10pt !important;
+.seccion-principios .card .card-body p:first-child {
+    font-weight: 700 !important;
+    font-size: 16pt !important;
+    line-height: 20px !important;
 }
 
+.seccion-principios .card .card-body p:last-child {
+    font-weight: 400 !important;
+    font-size: 14pt !important;
+}
+
+
 .seccion-principios .card .card-header img {
-    height: auto !important;
+    width: 102px !important;
+    height: 80px !important;
 }
 
 
 .seccion-principios .card:nth-child(2),
 .seccion-principios .card:nth-child(4) {
-    margin-top: 23px !important;
+   top: 23px !important;
 }
 
 .seccion-principios .card:nth-child(1),
