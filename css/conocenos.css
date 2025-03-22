@@ -202,6 +202,7 @@
     line-height: 40px;
     width: 640px;
     height: 76px;
+    margin-top: 80px !important;
 }
 
 .ejes-container .card {
@@ -214,11 +215,44 @@
     height: 248px;
 }
 
-.ejes-container .card .card-header:first-child {
-
+.ejes-container .card1 .card-header {
     background-image: url(../images/compromisocial.jpg);
 }
 
-.ejes-container .card .card-header:last-child {
-    background-image: url(../images/compromiso2.jpg);
+.ejes-container .card2 .card-header {
+    background-image: url(../images/compromiso2.jpg) !important;
+}
+
+.ejes-container .card1 .card-body div,
+.ejes-container .card2 .card-body div {
+    width: 304px;
+    height: 144px;
+}
+
+.ejes-container .card1 .card-body div img,
+.ejes-container .card2 .card-body div img {
+    width: 64px;
+    height: 64px;
+}
+
+.titulo-card {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-dominus-green-dark) !important;
+    margin-top: 8px !important;
+
+}
+
+.texto-card {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 140% !important;
+    letter-spacing: 0% !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    color: var(----color-producto-fresco) !important;
+    margin-top: 8px !important;
 }
