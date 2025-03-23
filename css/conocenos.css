@@ -183,9 +183,9 @@
     background-color: white !important;
 }
 
-/*************************************/
-/******** seccion ejes **********/
-/*************************************/
+/**************************************/
+/************ seccion ejes ************/
+/**************************************/
 
 .seccion-ejes {
     background: linear-gradient(180deg, #025125 0%, #009B49 123.27%);
@@ -255,4 +255,80 @@
     vertical-align: middle !important;
     color: var(----color-producto-fresco) !important;
     margin-top: 8px !important;
+}
+
+/***********************************************/
+/************ seccion certificaciones **********/
+/***********************************************/
+
+.seccion-certificaciones .seccion-certificaciones-container {
+    width: 1122px !important;
+}
+
+.seccion-certificaciones .seccion-certificaciones-container .cards {
+    margin-top: 30px;
+}
+
+.seccion-certificaciones .texto-inicial p {
+    width: 544px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 80px !important;
+
+}
+
+.seccion-certificaciones .card {
+    width: 256px !important;
+    height: 184px !important;
+}
+
+.seccion-certificaciones .card .card-header img {
+    height: 70px !important;
+    width: auto !important;
+    margin-bottom: 16px !important;
+    margin-top: 41px !important;
+    margin-bottom: 33px !important;
+}
+
+.seccion-certificaciones .card .card-header p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/*************************************/
+/******** seccion timeline **********/
+/*************************************/
+.seccion-timeline {
+    width: 1122px !important;
+}
+
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    background-color:var(--color-dominus-green-dark);
+    border-radius: 50%;
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+/*************************************/
+/******** swiper-slide horizontal ****/
+/*************************************/
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: auto;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.swiper-slide img {
+    width: 544px;
+    height: 580px;
 }

@@ -203,6 +203,115 @@
         </div>
     </div>
 
+    <div class="seccion-certificaciones w-100">
+        <div class="seccion-certificaciones-container ms-auto me-auto">
+
+
+            <div class="texto-inicial d-flex ms-auto me-auto flex-column">
+                <p>Trabajamos com productos y operaciones de
+                    <span style="color:var(--color-producto-fresco);">calidad certificada</span>
+                </p>
+            </div>
+
+            <div class="d-flex  justify-content-between cards">
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/globalgap.png" alt="">
+                        <p class="p-0 m-0">Global Gap</p>
+                    </div>
+                </div>
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/organicoicea.png" alt="">
+                        <p class="p-0 m-0">Orgánico ICEA</p>
+                    </div>
+                </div>
+
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/grasp.png" alt="">
+                        <p class="p-0 m-0">GRASP</p>
+                    </div>
+                </div>
+
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/for-life.png" alt="">
+                        <p class="p-0 m-0">For Life</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="d-flex  justify-content-between cards">
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/BRCS.jpg" alt="">
+                        <p class="p-0 m-0">BRCS</p>
+                    </div>
+                </div>
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/usdaorganic.png" alt="">
+                        <p class="p-0 m-0">Orgánico USDA</p>
+                    </div>
+                </div>
+
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/smeta.png" alt="">
+                        <p class="p-0 m-0">SMETA</p>
+                    </div>
+                </div>
+
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/basc.png" alt="">
+                        <p class="p-0 m-0">BASC</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-flex  justify-content-between cards ">
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/kosher.png" alt="">
+                        <p class="p-0 m-0">Kosher</p>
+                    </div>
+                </div>
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/spring.png" alt="">
+                        <p class="p-0 m-0">Spring</p>
+                    </div>
+
+                </div>
+                <div class="card p-0 m-0">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/rainforest.png" alt="">
+                        <p class="p-0 m-0">Rainforest Alliance</p>
+                    </div>
+                </div>
+                <div class="card p-0 m-0" style="visibility: hidden;">
+                    <div class="card-header p-0 m-0 text-center border-bottom-0">
+                        <img src="images/rainforest.png" alt="">
+                        <p class="p-0 m-0">Rainforest Alliance</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="seccion-timeline ms-auto me-auto overflow-hidden">
+        <p>La amplia trayectoria que nos respalda</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper d-flex">
+                <div class="swiper-slide">Slide 1</div>
+
+            </div>
+        </div>
+    </div>
 
     <footer class="d-flex flex-column pt-5">
         <div class="container">
@@ -246,4 +355,22 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+
+        //obtener el primer .swiper-slide y clonarlo 6 veces y agregarlo al final
+        var slide = document.querySelector('.swiper-slide');
+        console.log(slide)
+        for (let i = 0; i < 5; i++) {
+            var clone = slide.cloneNode(true);
+            document.querySelector('.swiper-wrapper').appendChild(clone);
+        }
+
+        var swiper = new Swiper(".swiper", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            loop: false, // No repetir los slides
+            navigation: false
+        });
+    </script>
 </body>
