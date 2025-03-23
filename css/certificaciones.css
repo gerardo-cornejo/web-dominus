@@ -4,6 +4,10 @@
     --text-dark: #333;
 }
 
+.certificaciones-section{
+    margin-bottom: 112px;
+}
+
 .categoria-title {
     color: var(--green-primary);
     font-weight: 600;
@@ -72,9 +76,8 @@
 .cert-card {
     background-color: #fff;
     border-radius: 12px;
-    padding: 30px 20px;
     height: 100%;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    /*box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);*/
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -103,14 +106,13 @@
     color: #333;
 }
 
-/* Tarjetas cuadradas */
 .square {
     aspect-ratio: 1 / 1;
 }
 
 .cert-card.square {
-    aspect-ratio: 1 / 1;
-    /* Fuerza forma cuadrada */
+    width: 352px;
+    height: 288px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,7 +121,7 @@
 
 .cert-card.square img {
     max-height: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 32px;
 }
 
 .cert-card.square h6 {
@@ -133,7 +135,8 @@
 }
 
 .intro-text {
-    font-size: 16px;
+    font-size: 24px;
+    width: 736px;
     color: #333;
     margin: 40px 0 30px 0;
     padding-left: 0;
@@ -142,7 +145,6 @@
 
 .resaltado {
     color: var(--color-dominus-green-dark);
-    /* Verde institucional */
     font-weight: 600;
 }
 
