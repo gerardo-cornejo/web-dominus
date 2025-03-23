@@ -10,9 +10,9 @@
   --color-dominus-green-light: #e7f9c5;
 }
 
-/** {
+* {
   border: solid 1px red;
-}*/
+}
 
 * {
   font-family: 'Helvetica Neue', sans-serif;

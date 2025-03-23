@@ -74,7 +74,7 @@
 /*Overlay (Zona oscura inferior)*/
 .overlay-bottom {
     bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.5), transparent);
 }
 
 /*************************************/
@@ -152,3 +152,107 @@
 /*************************************/
 /******** seccion carrusel **********/
 /*************************************/
+
+/*Tamaño de la imagen*/
+.carousel .carousel-inner .carousel-item img {
+    height: 764px !important;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption p {
+    width: 414px;
+    height: 102px;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.carousel .carousel-indicators button {
+    border-radius: 100%;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.carousel .carousel-indicators button:not(.active) {
+    border-radius: 100%;
+    width: 6px !important;
+    height: 6px !important;
+    background-color: var(--color-dominus-green-dark) !important;
+
+}
+
+.carousel .carousel-indicators button .active {
+    background-color: white !important;
+}
+
+/*************************************/
+/******** seccion ejes **********/
+/*************************************/
+
+.seccion-ejes {
+    background: linear-gradient(180deg, #025125 0%, #009B49 123.27%);
+    height: 731px;
+}
+
+.seccion-ejes .ejes-container {
+    width: 1122px !important;
+}
+
+.ejes-container .texto-inicial p {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 640px;
+    height: 76px;
+    margin-top: 80px !important;
+}
+
+.ejes-container .card {
+    width: 544px;
+    height: 448px;
+}
+
+.ejes-container .card .card-header {
+    width: 544px;
+    height: 248px;
+}
+
+.ejes-container .card1 .card-header {
+    background-image: url(../images/compromisocial.jpg);
+}
+
+.ejes-container .card2 .card-header {
+    background-image: url(../images/compromiso2.jpg) !important;
+}
+
+.ejes-container .card1 .card-body div,
+.ejes-container .card2 .card-body div {
+    width: 304px;
+    height: 144px;
+}
+
+.ejes-container .card1 .card-body div img,
+.ejes-container .card2 .card-body div img {
+    width: 64px;
+    height: 64px;
+}
+
+.titulo-card {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-dominus-green-dark) !important;
+    margin-top: 8px !important;
+
+}
+
+.texto-card {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 140% !important;
+    letter-spacing: 0% !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    color: var(----color-producto-fresco) !important;
+    margin-top: 8px !important;
+}
