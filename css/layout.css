@@ -10,9 +10,9 @@
   --color-dominus-green-light: #e7f9c5;
 }
 
-/** {
+* {
   border: solid 1px red;
-}*/
+}*
 
 * {
   font-family: 'Helvetica Neue', sans-serif;
@@ -71,4 +71,26 @@ a.nav-link.text-white.active {
   background-color: var(--color-dominus-dark);
   color: white;
 
+}
+
+/*******************************************/
+/************** seccion footer **********/
+/*******************************************/
+footer {
+  background: rgba(249, 250, 251, 1);
+}
+
+footer .logo-img {
+  height: 110px !important;
+  margin-right: 32px !important;
+}
+
+footer .superior {
+  margin-bottom: 32px !important;
+}
+
+
+footer .inferior {
+  margin-top: 24px !important;
+  margin-bottom: 44px !important;
 }

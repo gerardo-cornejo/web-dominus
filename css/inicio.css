@@ -93,8 +93,21 @@
 /*****************************************************************/
 /******************* Productos cultivados ************************/
 /*****************************************************************/
+.seccion-productos .container {
+    margin-top: 112px;
+    margin-bottom: 120px;
+}
+
+.seccion-productos .container .texto-inicial {
+    width: 640px;
+    height: 72px;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
 .seccion-productos .card {
-    background-image: url('../images/aspa.svg');
+    background-image: url('../images/iconos/aspa.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -164,8 +177,8 @@
 .seccion-mango .seccion-mango-derecha {
     background-image: url(../images/sectionmango.jpg);
     background-size: 186%;
-    background-position-x: 1011px;
-    background-position-y: -81px;
+    background-position-x: 883px;
+    background-position-y: -60px;
     border-top-right-radius: 45px;
 }
 
@@ -194,10 +207,12 @@
 }
 
 .seccion-plantas .seccion-plantas-derecha {
-    background-image: url("../images/compromisoambiental.jpg");
+    background-image: url(../images/compromiso2.jpg);
     background-size: cover;
-    background-position: center;
     border-top-left-radius: 45px;
+    background-position-x: -124px;
+    background-position-y: 74px;
+    background-size: 150%;
 }
 
 .seccion-plantas .seccion-plantas-izquierda {
@@ -224,10 +239,13 @@
 }
 
 .seccion-calidad .seccion-calidad-derecha {
-    background-image: url("../images/calidadgrande.jpg");
+    background-image: url(../images/calidadgrande.jpg);
     background-size: cover;
     background-position: center;
     border-top-right-radius: 45px;
+    background-size: 268%;
+    background-position-x: -708px;
+    background-position-y: -20px;
 
 }
 
@@ -250,6 +268,11 @@
 /*****************************************************************/
 /********************* Sección de certificaciones **************************/
 /*****************************************************************/
+
+.seccion-certificaciones {
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
 
 .seccion-certificaciones .cards {
     display: flex !important;
@@ -415,27 +438,22 @@
 /*Imagen completa al lado derecho*/
 
 .seccion-importacion .seccion-importacion-derecha {
-    background-image: url("../images/sectionrepresentantes.jpg");
-    background-size: cover;
-    background-position: center;
-    border-top-left-radius: 45px;
+    background-image: url(../images/sectionrepresentantes.jpg);
+    background-size: 183%;
+    background-position: -373px 674px;
+    border-bottom-left-radius: 32px;
 }
 
+/*Texto de la etiqueta p*/
 .seccion-importacion .seccion-importacion-izquierda {
     background-color: var(--color-background-seccion) !important;
+    line-height: 40px;
 }
 
-/*Texto de la primera etiqueta p*/
-.seccion-importacion .seccion-importacion-izquierda div div p:first-child {
-    color: var(--color-producto-fresco) !important;
-    font-weight: 500;
-    font-size: 32px !important;
-
-}
 
 /*Texto de la segunda etiqueta p*/
 .seccion-importacion .seccion-importacion-izquierda div div p:nth-last-child(2) {
-    color: var(--color-dominus-green-dark) !important;
+    margin-bottom: 14px !important;
     font-weight: 500;
     font-size: 32px !important;
 }
@@ -454,11 +472,10 @@
 }
 
 .seccion-vacantes .seccion-vacantes-derecha {
-    background-image: url("../images/seccionvacantes.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url(../images/seccionvacantes.jpg);
     border-bottom-right-radius: 45px;
-
+    background-size: 169%;
+    background-position: -417px -1px;
 }
 
 .seccion-vacantes .seccion-vacantes-izquierda p:first-child {
@@ -470,6 +487,7 @@
 
     line-height: 40px;
 }
+
 .seccion-vacantes .seccion-vacantes-izquierda p:nth-last-child(2) {
     width: 216px;
     font-weight: 400;
@@ -487,5 +505,9 @@
     line-height: 199%;
     font-weight: 400;
     font-size: 14px;
-    
+
+}
+
+.seccion-vacantes .seccion-vacantes-izquierda div {
+    margin-left: 70px;
 }
