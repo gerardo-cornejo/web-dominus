@@ -81,7 +81,15 @@
 /******** seccion principios **********/
 /*************************************/
 .seccion-principios .texto-inicial {
-    margin-top: 70px;
+    margin-top: 112px;
+    margin-bottom: 48px;
+}
+
+.seccion-principios .texto-inicial p {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+
 }
 
 .seccion-principios .card {
@@ -91,7 +99,7 @@
 }
 
 .seccion-principios .cards {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .seccion-principios .card .card-header {
@@ -203,6 +211,7 @@
     width: 640px;
     height: 76px;
     margin-top: 80px !important;
+    margin-bottom: 44px;
 }
 
 .ejes-container .card {
@@ -260,6 +269,9 @@
 /***********************************************/
 /************ seccion certificaciones **********/
 /***********************************************/
+.seccion-certificaciones {
+    margin-bottom: 80px;
+}
 
 .seccion-certificaciones .seccion-certificaciones-container {
     width: 1122px !important;
@@ -297,27 +309,30 @@
 }
 
 /*************************************/
-/******** seccion timeline **********/
+/******** seccion timeline ***********/
 /*************************************/
+.seccion-timeline-wrapper {
+
+    padding-bottom: 80px;
+    padding-top: 80px;
+    height: 843px !important;
+    background: linear-gradient(180deg, rgb(247, 255, 232) 0%, white 100%);
+
+}
+
 .seccion-timeline {
     width: 1122px !important;
+
 }
 
-.timeline-dot {
-    width: 12px;
-    height: 12px;
-    background-color:var(--color-dominus-green-dark);
-    border-radius: 50%;
-    position: absolute;
-    top: 52px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 3;
+.seccion-timeline-wrapper .seccion-timeline .texto-inicial {
+    width: 352px;
+    height: 80px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
 }
 
-/*************************************/
-/******** swiper-slide horizontal ****/
-/*************************************/
 .swiper-slide {
     display: flex;
     justify-content: center;
@@ -328,7 +343,59 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.swiper-slide img {
+.swiper-slide .card {
     width: 544px;
     height: 580px;
+
+
+}
+
+.swiper-slide .card .card-header {
+    margin-bottom: 36px !important;
+    background-color: rgb(249 255 237) !important;
+
+    .info-timeline {
+        background-color: rgb(249 255 237) !important;
+    }
+}
+
+.swiper-slide .card .card-header p {
+    background-color: var(--color-dominus-green-dark);
+    color: white;
+    height: 68px;
+    font-size: 14px;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.swiper-slide .card .card-body img {
+    width: 544px;
+    height: 416px;
+    border-radius: 8px;
+}
+
+.timeline-dot {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-producto-fresco);
+    border-radius: 100%;
+    margin-bottom: 32px;
+}
+
+.timeline-year {
+    width: 351px;
+    height: 60px;
+    color: var(--color-producto-fresco) !important;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.timeline-line {
+    position: absolute;
+    width: 4606px !important;
+    background-color: var(--color-producto-fresco);
+    height: 3px;
+    left: 272px;
+    top: 67px;
+    z-index: 100;
 }
