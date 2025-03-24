@@ -1,0 +1,45 @@
+{
+    "productos": [
+        {
+            "nombre": "mango",
+            "presentacion": [
+                "fresco",
+                "congelado"
+            ],
+            "tipos": [
+                "KENT",
+                "Edward"
+            ],
+            "calendario": [
+                {
+                    "mes": 1,
+                    "color": "rgba(247, 198, 42, 1)"
+                },
+                {
+                    "mes": 2,
+                    "color": "rgba(247, 198, 42, 1)"
+                },
+                {
+                    "mes": 3,
+                    "color": "rgba(247, 198, 42, 1)"
+                },
+                {
+                    "mes": 12,
+                    "color": "rgba(247, 198, 42, 1)"
+                },
+                {
+                    "mes": 9,
+                    "color": "rgba(230, 51, 18, 1)"
+                },
+                {
+                    "mes": 10,
+                    "color": "rgba(230, 51, 18, 1)"
+                },
+                {
+                    "mes": 11,
+                    "color": "rgba(230, 51, 18, 1)"
+                }
+            ]
+        }
+    ]
+}
