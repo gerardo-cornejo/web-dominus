@@ -71,11 +71,7 @@
 
 }
 
-/*Overlay (Zona oscura inferior)*/
-.overlay-bottom {
-    bottom: 0;
-    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.5), transparent);
-}
+
 
 /*************************************/
 /******** seccion principios **********/
