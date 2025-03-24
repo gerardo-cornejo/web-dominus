@@ -12,9 +12,9 @@
 
 * {
   border: solid 1px red;
-}*
+}
 
-* {
+* * {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
@@ -26,6 +26,11 @@
 /*Texto de botón dominus dark*/
 .text-dominus-dark {
   color: var(--color-dominus-dark);
+}
+
+/* Reduce el brillo al 70% para que resalte el texto delantero.*/
+.efecto-oscuro {
+  filter: brightness(0.7);
 }
 
 /*Clase que tiene los atributos para pintar un div completamnete*/

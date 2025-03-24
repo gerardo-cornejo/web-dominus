@@ -85,10 +85,7 @@
     color: white;
 }
 
-/* Reduce el brillo al 70% para que resalte el texto delantero.*/
-.efecto-oscuro {
-    filter: brightness(0.7);
-}
+
 
 /*****************************************************************/
 /******************* Productos cultivados ************************/
