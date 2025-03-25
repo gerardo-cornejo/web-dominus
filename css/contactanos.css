@@ -1,0 +1,100 @@
+.seccion-dejar-sugerencia {
+    height: 567px;
+    background: linear-gradient(180deg, #025125 0%, #009B49 123.27%);
+}
+
+.seccion-dejar-sugerencia .izquierda {
+    width: 704px !important;
+    float: right;
+    border-bottom-left-radius: 100px;
+    background-image: url(../images/sugerencias.jpg);
+    background-size: 161%;
+    background-position-x: -188px;
+    background-position-y: -130px;
+}
+
+.seccion-dejar-sugerencia .derecha div div p {
+    width: 322px;
+    height: 212px;
+    font-size: 48px;
+    color: white;
+    line-height: 53px;
+
+}
+
+.seccion-dejar-sugerencia .derecha div div span {
+    color: var(--color-dominus-green-light);
+
+}
+
+.seccion-dejar-sugerencia .derecha div div button {
+    width: 256px;
+    height: 48px;
+    background-color: var(--color-dominus-green-light);
+    color: var(--color-dominus-green-dark);
+
+}
+
+/**********************************************************/
+/************** seccion seccion-envianos-mensaje **********/
+/**********************************************************/
+
+.seccion-envianos-mensaje {
+    height: 824px !important;
+    margin-top: 40px;
+}
+
+.seccion-envianos-mensaje .derecha {
+    float: right;
+    border-bottom-left-radius: 100px;
+    background-image: url(../images/envianosmensaje.jpg);
+    background-size: 208%;
+    background-position-x: -397px;
+    background-position-y: -4px;
+}
+
+.seccion-envianos-mensaje .izquierda .formulario-mensaje {
+    width: 448px;
+    height: 604px;
+}
+
+.formulario-mensaje .texto-inicial {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--color-dominus-green-dark) !important;
+
+}
+
+.seccion-envianos-mensaje .izquierda .formulario-mensaje input,
+.seccion-envianos-mensaje .izquierda .formulario-mensaje textarea {
+    margin-top: 4px !important;
+    margin-bottom: 16px !important;
+    border: none !important;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.seccion-envianos-mensaje .izquierda .formulario-mensaje textarea {
+    height: 192px !important;
+}
+
+.seccion-envianos-mensaje .izquierda .formulario-mensaje input:focus,
+.seccion-envianos-mensaje .izquierda .formulario-mensaje textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-enviar-mensaje {
+    width: 160px;
+    height: 48px;
+    background-color: var(--color-producto-fresco);
+    color: white !important;
+    margin-top: 30ssspx;
+}
+
+.btn-enviar-mensaje:hover,
+.btn-enviar-mensaje:focus,
+.btn-enviar-mensaje:active {
+    background: var(--color-dominus-green-dark) !important;
+    color: white !important;
+}
