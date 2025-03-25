@@ -71,11 +71,7 @@
 
 }
 
-/*Overlay (Zona oscura inferior)*/
-.overlay-bottom {
-    bottom: 0;
-    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.5), transparent);
-}
+
 
 /*************************************/
 /******** seccion principios **********/
@@ -312,12 +308,10 @@
 /******** seccion timeline ***********/
 /*************************************/
 .seccion-timeline-wrapper {
-
     padding-bottom: 80px;
     padding-top: 80px;
-    height: 843px !important;
+    height: 910px !important;
     background: linear-gradient(180deg, rgb(247, 255, 232) 0%, white 100%);
-
 }
 
 .seccion-timeline {

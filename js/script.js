@@ -30,6 +30,14 @@ $(document).on("click", ".btn-prev", () => {
   card.remove();
 });
 
+//evento que detecte todos los botones. Si tienen el atributo href, redirigir a esa url
+$(document).on("click", "button", function () {
+  let href = $(this).attr("href");
+  if (href) {
+    window.location.href = href;
+  }
+});
+
 function actualizarAnio() {
   let anio = new Date().getFullYear();
   $("#footer-year").text(anio);
@@ -40,6 +48,7 @@ $(document).ready(function () {
   window.addEventListener("scroll", checkearPosicionScroll);
   actualizarAnio();
 });
+
 
 
 const fontFolderPath = "/fonts";
@@ -58,7 +67,7 @@ function cargarFuentes() {
         const fontFace = new FontFace(fontFile.split("/").pop(), `url(${fontFile})`);
         fontFace.load().then((loadedFont) => {
           document.fonts.add(loadedFont);
-         // console.log("Font loaded:", loadedFont);
+          // console.log("Font loaded:", loadedFont);
         });
       });
     })

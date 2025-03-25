@@ -96,7 +96,7 @@
 }
 
 .seccion-productos .container .texto-inicial {
-    width: 640px;
+    width: 520px;
     height: 72px;
     font-weight: 500;
     font-size: 32px;
@@ -173,8 +173,8 @@
 
 .seccion-mango .seccion-mango-derecha {
     background-image: url(../images/sectionmango.jpg);
-    background-size: 186%;
-    background-position-x: 883px;
+    background-size: 184%;
+    background-position-x: 1022px;
     background-position-y: -60px;
     border-top-right-radius: 45px;
 }
@@ -205,11 +205,10 @@
 
 .seccion-plantas .seccion-plantas-derecha {
     background-image: url(../images/compromiso2.jpg);
-    background-size: cover;
     border-top-left-radius: 45px;
-    background-position-x: -124px;
-    background-position-y: 74px;
-    background-size: 150%;
+    background-position-x: -135px;
+    background-position-y: -46px;
+    background-size: 157%;
 }
 
 .seccion-plantas .seccion-plantas-izquierda {
@@ -237,13 +236,11 @@
 
 .seccion-calidad .seccion-calidad-derecha {
     background-image: url(../images/calidadgrande.jpg);
-    background-size: cover;
     background-position: center;
     border-top-right-radius: 45px;
     background-size: 268%;
-    background-position-x: -708px;
-    background-position-y: -20px;
-
+    background-position-x: -868px;
+    background-position-y: -24px;
 }
 
 .seccion-calidad .seccion-calidad-izquierda p {
@@ -308,6 +305,18 @@
 .seccion-certificaciones .container button:visited,
 .seccion-certificaciones .container button {
     border: 0px !important;
+}
+
+.btn-explorar-certificaciones {
+    width: 352px;
+    height: 48px;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: var(--color-producto-fresco);
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
 }
 
 /*****************************************************************/

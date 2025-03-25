@@ -1,10 +1,17 @@
 {
     "productos": [
         {
-            "nombre": "mango",
+            "nombre": "Mango",
+            "imagen": "mango.jpg",
             "presentacion": [
-                "fresco",
-                "congelado"
+                {
+                    "nombre": "fresco",
+                    "area_cultivo": "area_mango_fresco.jpg"
+                },
+                {
+                    "nombre": "congelado",
+                    "area_cultivo": "area_mango_congelado.jpg"
+                }
             ],
             "tipos": [
                 "KENT",
