@@ -42,6 +42,7 @@
 .seccion-envianos-mensaje {
     height: 824px !important;
     margin-top: 40px;
+    padding-bottom: 40px;
 }
 
 .seccion-envianos-mensaje .derecha {
@@ -97,4 +98,209 @@
 .btn-enviar-mensaje:active {
     background: var(--color-dominus-green-dark) !important;
     color: white !important;
+}
+
+/**********************************************************/
+/************** seccion-contacta *****************/
+/**********************************************************/
+.seccion-contacta {
+    background: linear-gradient(180deg, rgb(247 255 232 / 48%) 0%, white 100%);
+}
+
+.seccion-contacta .texto-inicial {
+    width: 448px;
+    height: 80px;
+    color: var(--color-dominus-green-dark) !important;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-top: 144px;
+}
+
+.seccion-contacta hr {
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.seccion-contacta .izquierda .contacto {
+
+    width: 256px;
+    height: 115px;
+}
+
+.seccion-contacta .seccion-contacta-comercial div {
+    gap: 32px;
+}
+
+.seccion-contacta .seccion-contacta-comercial .titulo,
+.seccion-contacta .seccion-contacta-logistica .titulo {
+    color: var(--color-dominus);
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+
+.seccion-contacta .contacto p:first-of-type {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-dominus-green-dark);
+    margin-bottom: 4px;
+}
+
+.seccion-contacta .contacto p:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 8px;
+}
+
+.seccion-contacta .contacto p:nth-of-type(3) {
+    color: var(--color-dominus-green-dark);
+    font-weight: 400;
+    font-size: 14px;
+    width: 256px;
+    height: 32px;
+    border-radius: 8px;
+    line-height: 228% !important;
+    text-align: center;
+    border: solid 1px var(--color-dominus-green-dark);
+}
+
+.seccion-contacta .seccion-ubicanos .texto-inicial {
+    width: 448px;
+    height: 80px;
+    color: var(--color-dominus-green-dark) !important;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 56px;
+}
+
+.seccion-ubicanos .oficinas {
+    gap: 32px;
+}
+
+.seccion-ubicanos .oficinas .oficina {
+    width: 550px;
+}
+
+.seccion-ubicanos .oficinas .oficina img:first-of-type {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+.seccion-ubicanos .oficinas .oficina img:nth-last-of-type(1) {
+    width: 544px;
+    height: 256px;
+    margin-top: 40px;
+}
+
+/**********************************************************/
+/************** seccion-sugerencias *****************/
+/**********************************************************/
+.seccion-sugerencias {
+    margin-top: 112px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.seccion-sugerencias .derecha {
+    background-image: url(../images/sugerencia.jpg);
+    height: 948px;
+    width: 704px !important;
+    background-size: 100%;
+    border-bottom-left-radius: 140px;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia {
+    margin-top: 72px !important;
+    width: 450px;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .texto-inicial {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .texto-inicial span:first-of-type {
+    color: var(--color-dominus-green-dark);
+    margin-bottom: 2px;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .texto-inicial span:nth-of-type(2) {
+    color: var(--color-producto-fresco);
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .form p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 32px;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .form input[type="text"],
+.seccion-sugerencias .izquierda .formulario-sugerencia .form .radios,
+.seccion-sugerencias .izquierda .formulario-sugerencia .form textarea {
+    height: 32px;
+    border-radius: 4px !important;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .form textarea {
+    height: 192px;
+    margin-bottom: 16px;
+    margin-top: 4px;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .form input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .form input[type="radio"]:checked::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-producto-fresco);
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .form .radios {
+    margin-top: 10px;
+    gap: 40px;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .form input:focus,
+.seccion-sugerencias .izquierda .formulario-sugerencia .form input:active,
+.seccion-sugerencias .izquierda .formulario-sugerencia .form input:hover {
+    outline: none;
+    box-shadow: none;
+}
+
+.seccion-sugerencias .izquierda .formulario-sugerencia .form .btn-enviar-sugerencia {
+    margin-top: 56px;
+    width: 160px;
+    height: 48px;
+    background-color: var(--color-producto-fresco);
+    color: white
 }

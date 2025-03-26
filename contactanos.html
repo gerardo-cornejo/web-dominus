@@ -67,17 +67,113 @@
             <div class="formulario-mensaje ">
                 <p class="texto-inicial">Envíanos un mensaje</p>
                 <label for="lblNombre">Nombre</label>
-                <input type="text" class="form-control " id="lblNombre" name="nombre" placeholder="Nombre">
+                <input type="text" class="form-control " id="lblNombre" name="nombre">
                 <label for="lblEmail">Email</label>
-                <input type="email" class="form-control" id="lblEmail" name="email" placeholder="Email">
+                <input type="email" class="form-control" id="lblEmail" name="email">
                 <label for="lblCompania">Compañía</label>
-                <input type="text" class="form-control" id="lblCompania" name="compania" placeholder="Compañía">
+                <input type="text" class="form-control" id="lblCompania" name="compania">
                 <label for="lblMensaje">Mensaje</label>
-                <textarea class="form-control " id="lblMensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                <textarea class="form-control " id="lblMensaje" name="mensaje"></textarea>
                 <button class="btn btn-enviar-mensaje">Enviar</button>
             </div>
         </div>
         <div class="w-50 derecha"></div>
+    </div>
+
+    <div class="seccion-contacta d-flex container flex-column">
+        <div class="justify-content-center d-flex w-100">
+
+            <div class="izquierda w-50">
+                <p class="texto-inicial">
+                    Contacta directamente con nuestros representantes
+                </p>
+                <div class="seccion-contacta-comercial">
+                    <p class="titulo">Comercial</p>
+                    <div class="d-flex">
+                        <div class="contacto">
+                            <p>Johanna Mateo</p>
+                            <p>+51 963 731 140</p>
+                            <p>jmateo@dominus.com.pe</p>
+                        </div>
+                        <div class="contacto">
+                            <p>Kevin Nevada</p>
+                            <p>+51 948 311 725</p>
+                            <p>knevada@dominus.com.pe</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="seccion-contacta-logistica">
+                    <p class="titulo">Logística</p>
+                    <div class="contacto">
+                        <p>Daniel Castillo</p>
+                        <p>+51 980 746 973</p>
+                        <p>dcastillo@dominus.com.pe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="derecha w-50"> </div>
+        </div>
+        <div class="seccion-ubicanos w-100">
+            <hr>
+            <p class="texto-inicial">Ubícanos en <br>nuestras oficinas:</p>
+            <div class="oficinas d-flex">
+                <div class="oficina">
+                    <img src="images/iconos/location_on.svg" alt="">
+                    <p class="m-0 p-0">Carretera Panamericana Norte Km. 1076<br>Tambogrande, Piura</p>
+                    <img src="images/oficina-piura.png" style="margin-top: 63px;" alt="">
+                </div>
+                <div class="oficina">
+                    <img src="images/iconos/location_on.svg" alt="">
+                    <p class="m-0 p-0">Calle Los Libertadores Nro. 155<br>Dpto. 901 - San Isidro<br>Lima, Perú</p>
+                    <img src="images/oficina.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="seccion-sugerencias d-flex">
+        <div class="w-50 izquierda">
+            <div class="formulario-sugerencia ms-auto me-auto">
+                <div class="texto-inicial">
+                    <span>¿Una sugerencia? Estaremos</span> <br><span>encantados de escucharte</span>
+                </div>
+                <div class="form d-flex flex-column">
+                    <p>Si lo deseas tu sugerencia puede ser completamente anónima:</p>
+                    <label for="lblLugar">¿De qué distrito / centro poblado / caserío eres?</label>
+                    <input type="text" class="form-control" id="lblLugar" name="lugar">
+                    <label for="lblSugerencia">Escríbenos tu sugerencia</label>
+                    <textarea class="form-control" name="lblSugerencia" id="lblSugerencia"></textarea>
+                    <label for="">Deseo dejar mi número celular o correo para un posible contacto por parte de
+                        Dominus</label>
+                    <div class="d-flex radios">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="contactPreference" id="contactEmail"
+                                value="email" checked>
+                            <label class="form-check-label" for="contactEmail">
+                                Sí, deseo hacerlo
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="contactPreference" id="contactPhone"
+                                value="phone">
+                            <label class="form-check-label" for="contactPhone">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <label for="lblContacto">Escribe tu número de celular o correo</label>
+                    <input type="text" class="form-control" id="lblContacto" name="lblContacto">
+
+                    <label for="lblNombre">Si deseas, puedes dejar tu nombre</label>
+                    <input type="text" class="form-control " id="lblNombre" name="lblNombre">
+                    
+                    <button class="btn btn-enviar-sugerencia">Enviar</button>
+                </div>
+            </div>
+        </div>
+        <div class="w-50 derecha">
+        </div>
     </div>
 
 
