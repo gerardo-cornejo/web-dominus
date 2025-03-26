@@ -3,7 +3,7 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #f8f9fa;
+    background: linear-gradient(180deg, rgba(247, 255, 232, 0.924185) -29.91%, rgba(247, 255, 232, 0) 50%);
 }
 
 .navbar {
@@ -28,9 +28,12 @@ body {
 /* Aplica la fuente de layout.css al contenido textual */
 .contenido-textual {
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px; /* Tamaño adecuado para la lectura */
-    color: #333; /* Color neutro para mejor contraste */
-    line-height: 1.6; /* Mejora la legibilidad */
+    font-size: 14px;
+    /* Tamaño adecuado para la lectura */
+    color: #333;
+    /* Color neutro para mejor contraste */
+    line-height: 1.6;
+    /* Mejora la legibilidad */
 }
 
 
@@ -68,39 +71,68 @@ body {
 .contenido-textual {
     font-family: 'Helvetica Neue', sans-serif;
     color: #333;
-    padding-left: 90px; /* este padding moverá todo el contenido hacia la derecha */
+    padding-left: 90px;
+    /* este padding moverá todo el contenido hacia la derecha */
     margin-bottom: 80px;
 }
 
 .header-section {
-    padding-left: 75px; /* Ajusta según alineación deseada */
+    padding-left: 75px;
+    /* Ajusta según alineación deseada */
     margin-bottom: 30px;
 }
 
 .breadcrumb {
     background-color: transparent;
     padding: 0;
-    margin-bottom: 5px;
+    margin-top: 104px;
+    margin-bottom: 56px;
 }
 
 .breadcrumb-item,
 .breadcrumb-item a {
     font-size: 14px;
     font-weight: 600;
-    color: #207044; /* Verde oscuro */
+    color: #207044;
+    /* Verde oscuro */
     text-transform: uppercase;
     text-decoration: none;
-    margin-bottom: 50px;
 }
 
 .breadcrumb-item.active {
     color: #025125;
 }
 
+.wrapper-victoria {
+    width: 1122px;
+}
+
+.vector-verde {
+    position: absolute;
+    height: 722px;
+    width: 216px;
+    z-index: -1;
+
+}
+
+.imagen-victoria {
+    box-shadow: 0px 20px 45px 0px #1717171A;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 112px;
+    width: 100%;
+    background: url(../images/victoria.jpg);
+    height: 464px;
+    background-size: 100%;
+    background-position-y: -124px;
+}
+
 .section-title {
     font-size: 48px;
     font-weight: 500;
-    color: #025125; /* mismo verde oscuro */
+    color: #025125;
+    /* mismo verde oscuro */
     margin-top: 0;
 }
 
@@ -116,10 +148,12 @@ h2 {
 }
 
 .card-img-top {
-    height: 550px; /* Mantiene la altura exacta */
+    height: 550px;
+    /* Mantiene la altura exacta */
     width: 100%;
     object-fit: cover;
-    border-radius: 0 0 15px 15px; /* Bordes inferiores redondeados */
+    border-radius: 0 0 15px 15px;
+    /* Bordes inferiores redondeados */
 }
 
 h4 {
@@ -135,15 +169,16 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0px; /* Elimina completamente el espacio entre imágenes */
+    gap: 0px;
+    /* Elimina completamente el espacio entre imágenes */
     flex-wrap: nowrap;
+    margin-bottom: 112px !important;
 }
 
 .gallery img {
-    width: 270px; 
-    height: 270px;
+    width: 352px;
+    height: 352px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
-
