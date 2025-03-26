@@ -69,11 +69,6 @@
     margin-bottom: 10px;
 }
 
-.nav-link.active {
-    font-weight: bold;
-    color: #28a745 !important;
-}
-
 .cert-card {
     background-color: #fff;
     border-radius: 12px;

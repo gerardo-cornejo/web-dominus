@@ -62,7 +62,7 @@ a.nav-link {
   /*Tamaño delas  opciones del navbar*/
 }
 
-a.nav-link.text-white.active {
+a.nav-link.active {
   font-weight: bold !important;
   color: var(--color-producto-fresco) !important;
   text-decoration-line: underline;
