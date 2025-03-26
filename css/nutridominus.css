@@ -3,7 +3,7 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #f8f9fa;
+    background: linear-gradient(180deg, rgba(247, 255, 232, 0.924185) -29.91%, rgba(247, 255, 232, 0) 50%);
 }
 
 .navbar {
@@ -64,29 +64,31 @@ body {
 .contenido-textual {
     font-family: 'Helvetica Neue', sans-serif;
     color: #333;
-    padding-left: 90px; /* este padding moverá todo el contenido hacia la derecha */
+    padding-left: 90px;
+    /* este padding moverá todo el contenido hacia la derecha */
     margin-bottom: 80px;
 }
 
 .header-section {
-    padding-left: 75px; /* Ajusta según alineación deseada */
+    padding-left: 75px;
+    /* Ajusta según alineación deseada */
     margin-bottom: 30px;
 }
 
 .breadcrumb {
     background-color: transparent;
     padding: 0;
-    margin-bottom: 5px;
+    margin-bottom: 56px;
 }
 
 .breadcrumb-item,
 .breadcrumb-item a {
     font-size: 14px;
     font-weight: 600;
-    color: #207044; /* Verde oscuro */
+    color: #207044;
+    /* Verde oscuro */
     text-transform: uppercase;
     text-decoration: none;
-    margin-bottom: 50px;
 }
 
 .breadcrumb-item.active {
@@ -96,8 +98,10 @@ body {
 .section-title {
     font-size: 40px;
     font-weight: 500;
-    color: #025125; /* mismo verde oscuro */
+    color: #025125;
+    /* mismo verde oscuro */
     margin-top: 0;
+    margin-bottom: 32px;
 }
 
 
@@ -121,17 +125,45 @@ ul {
     padding-left: 1rem;
 }
 
+.wrapper-nutridominus {
+    width: 1122px;
+    margin-top: 104px;
+}
+
+.contenedor-imagen-nutridominus {
+    margin-bottom: 56px;
+}
+
+.vector-verde {
+    position: absolute;
+    height: 722px;
+    width: 216px;
+}
+
+.imagen-nutridominus {
+    box-shadow: 0px 20px 45px 0px #1717171A;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 112px;
+    width: 1120px;
+    height: 464px;
+    z-index: -1;
+}
+
+
 .gallery {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0px; /* Elimina completamente el espacio entre imágenes */
+    gap: 0px;
+    /* Elimina completamente el espacio entre imágenes */
     flex-wrap: nowrap;
 }
 
 .gallery img {
-    width: 270px; 
-    height: 270px;
+    width: 352px;
+    height: 352px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
