@@ -85,6 +85,7 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: 35% center;
+    border-bottom-left-radius: 112px;
 }
 
 .testimonios-dominus {
@@ -124,87 +125,7 @@ body {
     width: 100%;
 }
 
-/*.programas-dominus {
-    margin-top: 60px;
-    margin-bottom: 80px;
-}
 
-.titulo-programa {
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: #222;
-}
-
-.titulo-programa .rojo {
-    color: #e63946;
-}
-
-.programa-box {
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-}
-
-.programa-texto {
-    background-color: #015f2b;
-    color: white;
-    flex: 1 1 50%;
-}
-
-.programa-texto h3 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-.programa-texto p {
-    font-size: 14px;
-    margin-bottom: 1rem;
-}
-
-.programa-texto ul {
-    list-style: none;
-    padding: 0;
-}
-
-.programa-texto ul li {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    font-size: 14px;
-    margin-bottom: 12px;
-}
-
-.programa-texto ul li img {
-    width: 20px;
-    height: 20px;
-    margin-top: 2px;
-}
-
-.programa-texto strong {
-    font-weight: 600;
-}
-
-.programa-imagen {
-    flex: 1 1 50%;
-}
-
-.programa-imagen img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.btn-postula-dominus {
-    background-color: #008f39;
-    color: white;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 6px;
-    font-size: 14px;
-}*/
 
 .programas-dominus {
     margin-top: 80px;
@@ -215,10 +136,9 @@ body {
     width: 448px;
     height: 76px;
     size: 32px;
-    margin: 0 auto 2rem auto;
+    margin-bottom: 32px;
     font-family: 'Helvetica Neue', sans-serif;
     text-align: left;
-    margin-left: 20px;
 }
 
 .titulo-programa .rojo {
@@ -227,7 +147,6 @@ body {
 
 .programa-box {
     background-color: #f8fcee;
-    padding: 20px;
     border-radius: 16px;
 }
 
@@ -326,4 +245,6 @@ body {
     padding: 10px 30px;
     border-radius: 6px;
     font-size: 14px;
+    margin-top: 56px;
+    margin-bottom:112px ;
 }
