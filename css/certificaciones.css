@@ -4,8 +4,9 @@
     --text-dark: #333;
 }
 
-.certificaciones-section{
+.certificaciones-section {
     margin-bottom: 112px;
+    width: 1122px !important;
 }
 
 .categoria-title {
@@ -17,7 +18,7 @@
 
 .text-green {
     color: var(--green-primary);
-  }
+}
 
 .hero-section {
     position: relative;
@@ -132,6 +133,9 @@
 .cert-card.square .descripcion {
     font-size: 13px;
     color: #666;
+    width: 304px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .intro-text {
