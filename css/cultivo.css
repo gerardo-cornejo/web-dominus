@@ -90,6 +90,7 @@ div.swiper-wrapper .swiper-slide-active img {
 .fruta-fresca {
     width: 160px;
     height: 48px;
+    border: solid 1px;
     border-color: var(--color-dominus-green-dark);
     color: var(--color-dominus-green-dark);
     border-radius: 8px;
@@ -102,6 +103,8 @@ div.swiper-wrapper .swiper-slide-active img {
 .fruta-congelada {
     width: 160px;
     height: 48px;
+    border: solid 1px;
+
     border-color: var(--color-producto-congelado);
     color: var(--color-producto-congelado);
     border-radius: 8px;
