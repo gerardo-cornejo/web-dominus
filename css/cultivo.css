@@ -1,0 +1,152 @@
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    width: 358px !important;
+    height: 358px !important;
+    margin: 0 !important;
+}
+
+div.swiper-wrapper {
+    gap: 32px;
+}
+
+div.swiper-wrapper .swiper-slide-active {
+    background-image: url(../images/iconos/aspa.svg);
+    background-size: cover;
+
+    .nombre-fruta {
+        display: none;
+    }
+}
+
+div.swiper-wrapper .swiper-slide-active img {
+    height: 258px;
+}
+
+.swiper-slide img {
+    transition: all 0.2s ease-in-out;
+    height: 180px;
+}
+
+.swiper {
+    width: 100%;
+    margin: 20px auto;
+    margin-top: 40px;
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+.swiper-fruta-name {
+    width: 256px;
+    height: 60px;
+
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-dominus-green-dark);
+}
+
+.nombre-fruta {
+    height: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 53px;
+    margin-top: 26px;
+    text-transform: capitalize;
+}
+
+.swiper-button-prev img,
+.swiper-button-next img {
+    width: 24px;
+    height: 24px;
+}
+
+.presentacion-fruta {
+    gap: 32px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.fruta-fresca {
+    width: 160px;
+    height: 48px;
+    border-color: var(--color-dominus-green-dark);
+    color: var(--color-dominus-green-dark);
+    border-radius: 8px;
+
+    img {
+        margin-right: 8px;
+    }
+}
+
+.fruta-congelada {
+    width: 160px;
+    height: 48px;
+    border-color: var(--color-producto-congelado);
+    color: var(--color-producto-congelado);
+    border-radius: 8px;
+
+    img {
+        margin-right: 8px;
+    }
+}
+
+.fruta-fresca.active,
+.fruta-fresca:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: var(--color-dominus-green-dark);
+    color: white;
+    cursor: pointer;
+
+    img {
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100) !important
+    }
+}
+
+.fruta-congelada.active,
+.fruta-congelada:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: var(--color-producto-congelado);
+    color: white;
+    cursor: pointer;
+
+    img {
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100) !important
+    }
+}
+
+.area-presentacion-fresco,
+.area-presentacion-congelado {
+    gap: 32px !important;
+}
+
+.area-presentacion-fresco .card,
+.area-presentacion-congelado .card {
+    width: 448px;
+    height: 352px;
+}
+
+.area-presentacion-fresco .card .card-body,
+.area-presentacion-congelado .card .card-body {
+    padding: 32px;
+}

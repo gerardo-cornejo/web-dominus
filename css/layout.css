@@ -14,8 +14,9 @@
   border: solid 1px red;
 }*/
 
-* * {
+* {
   font-family: 'Helvetica Neue', sans-serif;
+  border: solid 1px green !important;
 }
 
 /*Texto de botón dominus */

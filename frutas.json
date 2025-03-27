@@ -1,50 +1,211 @@
 {
-    "productos": [
+    "frutas": [
         {
-            "nombre": "Mango",
-            "imagen": "mango.jpg",
-            "presentacion": [
+            "nombre": "mango",
+            "imagen": "mango-fresco.png",
+            "presentaciones": [
                 {
-                    "nombre": "fresco",
-                    "area_cultivo": "area_mango_fresco.jpg"
+                    "tipo": "fresco",
+                    "area_cultivo": "ac_mango_fresco.jpg",
+                    "presentacion": [
+                        {
+                            "nombre": "calibres",
+                            "imagen": "cajas_mango_fresco.jpg",
+                            "items": [
+                                "6-7-8-9-10-12"
+                            ]
+                        }
+                    ],
+                    "calendario_produccion": [
+                        {
+                            "mes": 1,
+                            "color": "rgba(247, 198, 42, 1)"
+                        },
+                        {
+                            "mes": 2,
+                            "color": "rgba(247, 198, 42, 1)"
+                        },
+                        {
+                            "mes": 3,
+                            "color": "rgba(247, 198, 42, 1)"
+                        },
+                        {
+                            "mes": 9,
+                            "color": "rgba(230, 51, 18, 1)"
+                        },
+                        {
+                            "mes": 10,
+                            "color": "rgba(230, 51, 18, 1)"
+                        },
+                        {
+                            "mes": 11,
+                            "color": "rgba(230, 51, 18, 1)"
+                        },
+                        {
+                            "mes": 12,
+                            "color": "rgba(247, 198, 42, 1)"
+                        }
+                    ],
+                    "destinos": [
+                        {
+                            "nombre": "EE.UU",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "usa.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Reino Unido",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "uk.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Holanda",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "holanda.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "España",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "espana.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        }
+                    ]
                 },
                 {
-                    "nombre": "congelado",
-                    "area_cultivo": "area_mango_congelado.jpg"
+                    "tipo": "congelado",
+                    "area_cultivo": "ac_mango_congelado.jpg",
+                    "presentacion": [
+                        {
+                            "nombre": "Piezas",
+                            "imagen": "piezas_mango_congelado.jpg",
+                            "items": [
+                                "25 x 25 mm",
+                                "20 x 20 mm",
+                                "15 x 15 mm"
+                            ]
+                        }
+                    ],
+                    "calendario_produccion": [
+                        {
+                            "mes": 1,
+                            "color": "rgba(247, 198, 42, 1)"
+                        },
+                        {
+                            "mes": 2,
+                            "color": "rgba(247, 198, 42, 1)"
+                        },
+                        {
+                            "mes": 3,
+                            "color": "rgba(247, 198, 42, 1)"
+                        },
+                        {
+                            "mes": 9,
+                            "color": "rgba(230, 51, 18, 1)"
+                        },
+                        {
+                            "mes": 10,
+                            "color": "rgba(230, 51, 18, 1)"
+                        },
+                        {
+                            "mes": 11,
+                            "color": "rgba(230, 51, 18, 1)"
+                        },
+                        {
+                            "mes": 12,
+                            "color": "rgba(247, 198, 42, 1)"
+                        }
+                    ],
+                    "destinos": [
+                        {
+                            "nombre": "EE.UU",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "usa.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Reino Unido",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "uk.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Holanda",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "holanda.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        }
+                    ]
                 }
             ],
-            "tipos": [
-                "KENT",
-                "Edward"
-            ],
-            "calendario": [
+            "otras_frutas": [
+                "palta",
+                "arandano",
+                "fresa",
+                ",mandarina",
+                "uva"
+            ]
+        },
+        {
+            "nombre": "palta",
+            "imagen": "palta.png",
+            "presentaciones": [
                 {
-                    "mes": 1,
-                    "color": "rgba(247, 198, 42, 1)"
-                },
-                {
-                    "mes": 2,
-                    "color": "rgba(247, 198, 42, 1)"
-                },
-                {
-                    "mes": 3,
-                    "color": "rgba(247, 198, 42, 1)"
-                },
-                {
-                    "mes": 12,
-                    "color": "rgba(247, 198, 42, 1)"
-                },
-                {
-                    "mes": 9,
-                    "color": "rgba(230, 51, 18, 1)"
-                },
-                {
-                    "mes": 10,
-                    "color": "rgba(230, 51, 18, 1)"
-                },
-                {
-                    "mes": 11,
-                    "color": "rgba(230, 51, 18, 1)"
+                    "tipo": "fresco",
+                    "area_cultivo": "ac_palta_fresco.jpg",
+                    "presentacion": [
+                        {
+                            "nombre": "calibres",
+                            "imagen": "cajas_palta_fresco.jpg",
+                            "items": [
+                                "14 - 28"
+                            ]
+                        },
+                        {
+                            "nombre": "cajas",
+                            "imagen": "cajas_palta_fresco.jpg",
+                            "items": [
+                                "Cartón de 4kg",
+                                "Plástico de 10kg"
+                            ]
+                        }
+                    ],
+                    "calendario_produccion": [
+                        {
+                            "mes": 3,
+                            "color": "rgba(0, 155, 73, 1)"
+                        },
+                        {
+                            "mes": 4,
+                            "color": "rgba(0, 155, 73, 1)"
+                        },
+                        {
+                            "mes": 5,
+                            "color": "rgba(0, 155, 73, 1)"
+                        }
+                    ]
                 }
             ]
         }
