@@ -9,7 +9,7 @@
                     "area_cultivo": "ac_mango_fresco.jpg",
                     "presentacion": [
                         {
-                            "nombre": "calibres",
+                            "nombre": "Calibres",
                             "imagen": "cajas_mango_fresco.jpg",
                             "items": [
                                 "6-7-8-9-10-12"
@@ -19,31 +19,38 @@
                     "calendario_produccion": [
                         {
                             "mes": 1,
-                            "color": "rgba(247, 198, 42, 1)"
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
                         },
                         {
                             "mes": 2,
-                            "color": "rgba(247, 198, 42, 1)"
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
                         },
                         {
                             "mes": 3,
-                            "color": "rgba(247, 198, 42, 1)"
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
                         },
                         {
                             "mes": 9,
-                            "color": "rgba(230, 51, 18, 1)"
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
                         },
                         {
                             "mes": 10,
-                            "color": "rgba(230, 51, 18, 1)"
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
                         },
                         {
                             "mes": 11,
-                            "color": "rgba(230, 51, 18, 1)"
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
                         },
                         {
                             "mes": 12,
-                            "color": "rgba(247, 198, 42, 1)"
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
                         }
                     ],
                     "destinos": [
@@ -102,31 +109,38 @@
                     "calendario_produccion": [
                         {
                             "mes": 1,
-                            "color": "rgba(247, 198, 42, 1)"
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
                         },
                         {
                             "mes": 2,
-                            "color": "rgba(247, 198, 42, 1)"
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
                         },
                         {
                             "mes": 3,
-                            "color": "rgba(247, 198, 42, 1)"
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
                         },
                         {
                             "mes": 9,
-                            "color": "rgba(230, 51, 18, 1)"
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
                         },
                         {
                             "mes": 10,
-                            "color": "rgba(230, 51, 18, 1)"
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
                         },
                         {
                             "mes": 11,
-                            "color": "rgba(230, 51, 18, 1)"
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
                         },
                         {
                             "mes": 12,
-                            "color": "rgba(247, 198, 42, 1)"
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
                         }
                     ],
                     "destinos": [
@@ -177,14 +191,14 @@
                     "area_cultivo": "ac_palta_fresco.jpg",
                     "presentacion": [
                         {
-                            "nombre": "calibres",
+                            "nombre": "Calibres",
                             "imagen": "cajas_palta_fresco.jpg",
                             "items": [
                                 "14 - 28"
                             ]
                         },
                         {
-                            "nombre": "cajas",
+                            "nombre": "Cajas",
                             "imagen": "cajas_palta_fresco.jpg",
                             "items": [
                                 "Cartón de 4kg",
@@ -195,18 +209,457 @@
                     "calendario_produccion": [
                         {
                             "mes": 3,
-                            "color": "rgba(0, 155, 73, 1)"
+                            "color": "rgba(0, 155, 73, 1)",
+                            "textColor": "white"
                         },
                         {
                             "mes": 4,
-                            "color": "rgba(0, 155, 73, 1)"
+                            "color": "rgba(0, 155, 73, 1)",
+                            "textColor": "white"
                         },
                         {
                             "mes": 5,
-                            "color": "rgba(0, 155, 73, 1)"
+                            "color": "rgba(0, 155, 73, 1)",
+                            "textColor": "white"
+                        }
+                    ]
+                },
+                {
+                    "tipo": "congelado",
+                    "area_cultivo": "ac_palta_congelada.jpg",
+                    "presentacion": [
+                        {
+                            "nombre": "Dices",
+                            "imagen": "piezas_palta_congelado.jpg",
+                            "items": [
+                                "15 x 15 mm",
+                                "10 x 10 mm"
+                            ]
+                        },
+                        {
+                            "nombre": "Halves",
+                            "imagen": "mexico.png",
+                            "items": []
+                        }
+                    ],
+                    "calendario_produccion": [
+                        {
+                            "mes": 5,
+                            "color": "rgba(0, 155, 73, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 6,
+                            "color": "rgba(0, 155, 73, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 7,
+                            "color": "rgba(0, 155, 73, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 8,
+                            "color": "rgba(0, 155, 73, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 9,
+                            "color": "rgba(0, 155, 73, 1)",
+                            "textColor": "white"
+                        }
+                    ],
+                    "destinos": [
+                        {
+                            "nombre": "EE.UU",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "usa.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Cánada",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "canada.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Europa",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Asia",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
                         }
                     ]
                 }
+            ],
+            "otras_frutas": [
+                "palta",
+                "arandano",
+                "fresa",
+                "mandarina",
+                "uva"
+            ]
+        },
+        {
+            "nombre": "arandano",
+            "imagen": "arandano.png",
+            "presentaciones": [
+                {
+                    "tipo": "congelado",
+                    "area_cultivo": "ac_arandano_congelado.jpg",
+                    "presentacion": [
+                        {
+                            "nombre": "Bulk",
+                            "imagen": "cajas_arandano_congelado.jpg",
+                            "items": [
+                                "10 Kg",
+                                "30lbs"
+                            ]
+                        }
+                    ],
+                    "calendario_produccion": [
+                        {
+                            "mes": 5,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 6,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 7,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 8,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 9,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 10,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 11,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        }
+                    ],
+                    "destinos": [
+                        {
+                            "nombre": "EE.UU",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "usa.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Cánada",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "canada.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Europa",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Asia",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "otras_frutas": [
+                "palta",
+                "arandano",
+                "fresa",
+                ",mandarina",
+                "uva"
+            ]
+        },
+        {
+            "nombre": "fresa",
+            "imagen": "fresa.png",
+            "presentaciones": [
+                {
+                    "tipo": "congelado",
+                    "area_cultivo": "ac_fresa_congelado.jpg",
+                    "presentacion": [
+                        {
+                            "nombre": "Tamaño completo",
+                            "imagen": "cajas_fresa_congelado.jpg",
+                            "items": [
+                                "15 x 25 mm",
+                                "25 x 35 mm",
+                                "35 mm"
+                            ]
+                        }
+                    ],
+                    "calendario_produccion": [
+                        {
+                            "mes": 7,
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 8,
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 9,
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 10,
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 11,
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 12,
+                            "color": "rgba(230, 51, 18, 1)",
+                            "textColor": "white"
+                        }
+                    ],
+                    "destinos": [
+                        {
+                            "nombre": "EE.UU",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "usa.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Cánada",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "canada.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "México",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "mexico.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "otras_frutas": [
+                "palta",
+                "arandano",
+                "fresa",
+                ",mandarina",
+                "uva"
+            ]
+        },
+        {
+            "nombre": "mandarina",
+            "imagen": "mandarina2.png",
+            "presentaciones": [
+                {
+                    "tipo": "congelado",
+                    "area_cultivo": "ac_mandarina_congelado.jpg",
+                    "presentacion": [
+                        {
+                            "nombre": "Caja",
+                            "imagen": "cajas_mandarina_congelado.jpg",
+                            "items": [
+                                "10 Kg mm",
+                                "30 lbs"
+                            ]
+                        }
+                    ],
+                    "calendario_produccion": [
+                        {
+                            "mes": 4,
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
+                        },
+                        {
+                            "mes": 5,
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
+                        },
+                        {
+                            "mes": 6,
+                            "color": "rgba(247, 198, 42, 1)",
+                            "textColor": "black"
+                        }
+                    ],
+                    "destinos": [
+                        {
+                            "nombre": "EE.UU",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "usa.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Chile",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "chile.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "otras_frutas": [
+                "palta",
+                "arandano",
+                "fresa",
+                ",mandarina",
+                "uva"
+            ]
+        },
+        {
+            "nombre": "uva",
+            "imagen": "uva.png",
+            "presentaciones": [
+                {
+                    "tipo": "congelado",
+                    "area_cultivo": "ac_uva_congelado.jpg",
+                    "presentacion": [
+                        {
+                            "nombre": "calibres",
+                            "imagen": "cajas_uva_congelado.jpg",
+                            "items": [
+                                "14 - 28"
+                            ]
+                        },
+                        {
+                            "nombre": "cajas",
+                            "imagen": "cajas_uva_congelado.jpg",
+                            "items": [
+                                "Cartón de 4kg",
+                                "Plástico de 10kg"
+                            ]
+                        }
+                    ],
+                    "calendario_produccion": [
+                        {
+                            "mes": 9,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 10,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 11,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        },
+                        {
+                            "mes": 12,
+                            "color": "rgba(45, 45, 124, 1)",
+                            "textColor": "white"
+                        }
+                    ],
+                    "destinos": [
+                        {
+                            "nombre": "EE.UU",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "usa.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Cánada",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "canada.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "México",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "mexico.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        },
+                        {
+                            "nombre": "Reino Unido",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "uk.png",
+                            "ubicacion_mapa": {
+                                "left": "-10px",
+                                "top": "-10px"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "otras_frutas": [
+                "palta",
+                "arandano",
+                "fresa",
+                "mandarina",
+                "uva"
             ]
         }
     ]
