@@ -31,7 +31,7 @@ $(document).on("click", ".btn-prev", () => {
 });
 
 //evento que detecte todos los botones. Si tienen el atributo href, redirigir a esa url
-$(document).on("click", "button", function () {
+$(document).on("click", "*", function () {
   let href = $(this).attr("href");
   if (href) {
     window.location.href = href;

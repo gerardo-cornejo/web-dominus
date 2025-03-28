@@ -68,11 +68,12 @@ function cargarSwiper() {
             },
             slideChange: function () {
                 const nombreFruta = getParams.fruta;
+                const nombrePresentacion = getParams.presentacion;
                 const fruta = frutas[this.activeIndex];
 
                 console.log('Slide changed to', fruta.nombre);
                 swiper_fruta_name.textContent = fruta.nombre;
-                history.replaceState(null, '', 'cultivos.html?fruta=' + frutas[this.activeIndex].nombre);
+                history.replaceState(null, '', 'cultivos.html?fruta=' + frutas[this.activeIndex].nombre + (nombrePresentacion ? "&presentacion=" + nombrePresentacion : ""));
                 cargarDatosFruta(fruta, this.activeIndex);
             }
         }
@@ -202,6 +203,8 @@ function actualizarEventoPresentacion(frutaIndex) {
 
             });
 
+            history.replaceState(null, '', 'cultivos.html?fruta=' + frutas[swiper.activeIndex].nombre + ("&presentacion=fresco"));
+
 
 
         });
@@ -249,11 +252,21 @@ function actualizarEventoPresentacion(frutaIndex) {
             });
 
 
+            history.replaceState(null, '', 'cultivos.html?fruta=' + frutas[swiper.activeIndex].nombre + ("&presentacion=congelado"));
 
         });
     }
 
-    const btnDefault = btnFresco || btnCongelado;
+    let presentacionParam = getParams.presentacion;
+    let btnDefault;
+
+    if (presentacionParam && presentacionParam.toLocaleLowerCase() == "fresco" && btnFresco) {
+        btnDefault = btnFresco;
+    } else if (presentacionParam && presentacionParam.toLocaleLowerCase() == "congelado" && btnCongelado) {
+        btnDefault = btnCongelado;
+    } else {
+        btnDefault = btnFresco || btnCongelado;
+    }
     btnDefault.click();
 }
 
