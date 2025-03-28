@@ -57,37 +57,37 @@
                         {
                             "nombre": "EE.UU",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "usa.png",
+                            "imagen": "https://flagcdn.com/w40/us.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "132px",
+                                "top": "170px"
                             }
                         },
                         {
                             "nombre": "Reino Unido",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "uk.png",
+                            "imagen": "https://flagcdn.com/w40/gb.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "390px",
+                                "top": "102px"
                             }
                         },
                         {
                             "nombre": "Holanda",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "holanda.png",
+                            "imagen": "https://flagcdn.com/w40/nl.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "450px",
+                                "top": "137px"
                             }
                         },
                         {
                             "nombre": "España",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "espana.png",
+                            "imagen": "https://flagcdn.com/w40/es.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "494px",
+                                "top": "174px"
                             }
                         }
                     ]
@@ -147,10 +147,10 @@
                         {
                             "nombre": "EE.UU",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "usa.png",
+                            "imagen": "https://flagcdn.com/w40/us.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "132px",
+                                "top": "170px"
                             }
                         },
                         {
@@ -158,17 +158,26 @@
                             "color_fondo": "rgba(255, 239, 189, 1)",
                             "imagen": "uk.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "390px",
+                                "top": "102px"
                             }
                         },
                         {
                             "nombre": "Holanda",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "holanda.png",
+                            "imagen": "https://flagcdn.com/w40/nl.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "450px",
+                                "top": "137px"
+                            }
+                        },
+                        {
+                            "nombre": "España",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "https://flagcdn.com/w40/es.png",
+                            "ubicacion_mapa": {
+                                "left": "494px",
+                                "top": "174px"
                             }
                         }
                     ]
@@ -222,6 +231,35 @@
                             "color": "rgba(0, 155, 73, 1)",
                             "textColor": "white"
                         }
+                    ],
+                    "destinos": [
+                        {
+                            "nombre": "Reino Unido",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "https://flagcdn.com/w40/gb.png",
+                            "ubicacion_mapa": {
+                                "left": "390px",
+                                "top": "102px"
+                            }
+                        },
+                        {
+                            "nombre": "Holanda",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "https://flagcdn.com/w40/nl.png",
+                            "ubicacion_mapa": {
+                                "left": "450px",
+                                "top": "137px"
+                            }
+                        },
+                        {
+                            "nombre": "España",
+                            "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "https://flagcdn.com/w40/es.png",
+                            "ubicacion_mapa": {
+                                "left": "494px",
+                                "top": "174px"
+                            }
+                        }
                     ]
                 },
                 {
@@ -273,35 +311,37 @@
                         {
                             "nombre": "EE.UU",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "usa.png",
+                            "imagen": "https://flagcdn.com/w40/us.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "132px",
+                                "top": "170px"
                             }
                         },
                         {
-                            "nombre": "Cánada",
+                            "nombre": "Canadá",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "canada.png",
+                            "imagen": "https://flagcdn.com/w40/ca.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "157px",
+                                "top": "132px"
                             }
                         },
                         {
                             "nombre": "Europa",
                             "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "https://flagcdn.com/w40/es.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "390px",
+                                "top": "160px"
                             }
                         },
                         {
                             "nombre": "Asia",
                             "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "https://flagcdn.com/w40/cn.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "590px",
+                                "top": "126px"
                             }
                         }
                     ]
@@ -373,35 +413,37 @@
                         {
                             "nombre": "EE.UU",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "usa.png",
+                            "imagen": "https://flagcdn.com/w40/us.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "132px",
+                                "top": "170px"
                             }
                         },
                         {
-                            "nombre": "Cánada",
+                            "nombre": "Canadá",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "canada.png",
+                            "imagen": "https://flagcdn.com/w40/ca.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "157px",
+                                "top": "132px"
                             }
                         },
                         {
                             "nombre": "Europa",
                             "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "https://flagcdn.com/w40/es.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "390px",
+                                "top": "160px"
                             }
                         },
                         {
                             "nombre": "Asia",
                             "color_fondo": "rgba(255, 239, 189, 1)",
+                            "imagen": "https://flagcdn.com/w40/cn.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "590px",
+                                "top": "126px"
                             }
                         }
                     ]
@@ -469,28 +511,28 @@
                         {
                             "nombre": "EE.UU",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "usa.png",
+                            "imagen": "https://flagcdn.com/w40/us.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "132px",
+                                "top": "170px"
                             }
                         },
                         {
-                            "nombre": "Cánada",
+                            "nombre": "Canadá",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "canada.png",
+                            "imagen": "https://flagcdn.com/w40/ca.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "157px",
+                                "top": "132px"
                             }
                         },
                         {
                             "nombre": "México",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "mexico.png",
+                            "imagen": "https://flagcdn.com/w40/mx.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "216px",
+                                "top": "193px"
                             }
                         }
                     ]
@@ -542,19 +584,19 @@
                         {
                             "nombre": "EE.UU",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "usa.png",
+                            "imagen": "https://flagcdn.com/w40/us.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "132px",
+                                "top": "170px"
                             }
                         },
                         {
                             "nombre": "Chile",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "chile.png",
+                            "imagen": "https://flagcdn.com/w40/cl.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "206px",
+                                "top": "325px"
                             }
                         }
                     ]
@@ -618,37 +660,37 @@
                         {
                             "nombre": "EE.UU",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "usa.png",
+                            "imagen": "https://flagcdn.com/w40/us.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "132px",
+                                "top": "170px"
                             }
                         },
                         {
-                            "nombre": "Cánada",
+                            "nombre": "Canadá",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "canada.png",
+                            "imagen": "https://flagcdn.com/w40/ca.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "157px",
+                                "top": "132px"
                             }
                         },
                         {
                             "nombre": "México",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "mexico.png",
+                            "imagen": "https://flagcdn.com/w40/mx.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "216px",
+                                "top": "193px"
                             }
                         },
                         {
                             "nombre": "Reino Unido",
                             "color_fondo": "rgba(255, 239, 189, 1)",
-                            "imagen": "uk.png",
+                            "imagen": "https://flagcdn.com/w40/gb.png",
                             "ubicacion_mapa": {
-                                "left": "-10px",
-                                "top": "-10px"
+                                "left": "390px",
+                                "top": "102px"
                             }
                         }
                     ]

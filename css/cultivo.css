@@ -225,7 +225,7 @@ div.swiper-wrapper .swiper-slide-active img {
     cursor: pointer;
 }
 
-.contenedor-destinos{
+.contenedor-destinos {
     margin-top: 32px;
 }
 
@@ -238,8 +238,21 @@ div.swiper-wrapper .swiper-slide-active img {
     margin-left: 48px;
     width: 100px;
 }
-.contenedor-destinos .card .mapa-destinos img{
+
+.contenedor-destinos .card .mapa-destinos .img-mapa {
     width: 646px;
     height: 320px;
-    margin-top:56px;
+    margin-top: 56px;
+}
+
+.destino {
+    width: 160px;
+    height: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 14px 25.1px 0px rgba(228, 228, 228, 0.5);
+
+    img {
+        width: 24px !important;
+        height: 24px !important;
+    }
 }

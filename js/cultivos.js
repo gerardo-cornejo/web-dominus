@@ -174,11 +174,23 @@ function actualizarEventoPresentacion(frutaIndex) {
                     }
                 });
             });
+            //cargar destinos
+            const destinos = frutas[frutaIndex].presentaciones.find(p => p.tipo === "fresco").destinos;
+            console.log(destinos);
+            const contenedor_destinos = document.querySelector(".destinos");
+            contenedor_destinos.innerHTML = "";
+            destinos.forEach(destino => {
+                contenedor_destinos.innerHTML += `
+                 <div class="destino position-absolute" style="background-color:${destino.color_fondo}; top: ${destino.ubicacion_mapa.top}; left: ${destino.ubicacion_mapa.left};">
+                 <img src="${destino.imagen ? destino.imagen : ""}" alt=""> ${destino.nombre}
+                 </div>
+             `;
+
+            });
+
+
+
         });
-
-
-
-
 
     }
 
@@ -201,7 +213,7 @@ function actualizarEventoPresentacion(frutaIndex) {
             meses.forEach((mes, index) => {
 
                 calendario_congelado.forEach(cal => {
-                    console.log(cal)
+                    // console.log(cal)
                     if (mes.dataset.mes == cal.mes) {
                         mes.style.backgroundColor = cal.color;
                         mes.style.color = cal.textColor;
@@ -210,8 +222,15 @@ function actualizarEventoPresentacion(frutaIndex) {
             });
             //cargar destinos
             const destinos = frutas[frutaIndex].presentaciones.find(p => p.tipo === "congelado").destinos;
-            
+            console.log(destinos);
+            const contenedor_destinos = document.querySelector(".destinos");
+            contenedor_destinos.innerHTML = "";
             destinos.forEach(destino => {
+                contenedor_destinos.innerHTML += `
+                    <div class="destino position-absolute" style="background-color:${destino.color_fondo}; top: ${destino.ubicacion_mapa.top}; left: ${destino.ubicacion_mapa.left};">
+                        <img src="${destino.imagen ? destino.imagen : ""}" alt=""> ${destino.nombre}
+                    </div>
+                `;
 
             });
 
