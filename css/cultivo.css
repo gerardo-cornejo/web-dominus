@@ -256,3 +256,47 @@ div.swiper-wrapper .swiper-slide-active img {
         height: 24px !important;
     }
 }
+
+.mas-productos {
+    width: 928px;
+    margin-top: 80px;
+}
+
+.mas-productos .texto-inicial {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--color-dominus-green-dark);
+}
+
+.productos-relacionados {
+    gap: 32px;
+    margin-bottom: 112px;
+}
+
+.productos-relacionados .producto-relacionado {
+    width: 160px;
+    height: 168px;
+    background: var(--color-background-seccion);
+    border: none;
+    padding-top: 28.5px;
+}
+
+.productos-relacionados .producto-relacionado img {
+    width: auto;
+    height: 84px;
+    margin-bottom: 8px;
+}
+
+.productos-relacionados .producto-relacionado p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--color-dominus-green-dark);
+    text-transform: capitalize;
+
+}

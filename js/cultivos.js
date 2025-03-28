@@ -6,6 +6,8 @@ const swiper_wrapper = document.querySelector('.swiper-wrapper');
 const swiper_fruta_name = document.querySelector('.swiper-fruta-name');
 const presentacion_fruta = document.querySelector('.presentacion-fruta');
 const contenedor_presentaciones_fresco = document.querySelector('.contenedor-presentaciones-fresco');
+const contenedor_productos_relacionados = document.querySelector(".productos-relacionados");
+
 
 const urlParams = new URLSearchParams(window.location.search);
 const getParams = Object.fromEntries(urlParams.entries());
@@ -146,6 +148,18 @@ function cargarDatosFruta(fruta, activeIndex) {
 
         document.querySelector(".presentacion-congelado img").src = "images/" + presentacionCongelado.presentacion[0].imagen;
     }
+    contenedor_productos_relacionados.innerHTML = "";
+    //cargar frutas relacionadas
+    fruta.otras_frutas.forEach(f => {
+        contenedor_productos_relacionados.innerHTML += `
+            <a class="text-decoration-none" href="cultivos.html?fruta=${f}">
+                <div class=" producto-relacionado text-center">
+                    <img src="images/${frutas.filter(fx => fx.nombre.toLowerCase() == f.toLowerCase())[0].imagen}" alt="">
+                    <p>${f}</p>
+                </div>
+            </a>
+        `;
+    });
 
     actualizarEventoPresentacion(activeIndex);
 }

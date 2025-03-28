@@ -187,7 +187,7 @@
                 "palta",
                 "arandano",
                 "fresa",
-                ",mandarina",
+                "mandarina",
                 "uva"
             ]
         },
@@ -348,7 +348,7 @@
                 }
             ],
             "otras_frutas": [
-                "palta",
+                "mango",
                 "arandano",
                 "fresa",
                 "mandarina",
@@ -450,10 +450,10 @@
                 }
             ],
             "otras_frutas": [
+                "mango",
                 "palta",
-                "arandano",
                 "fresa",
-                ",mandarina",
+                "mandarina",
                 "uva"
             ]
         },
@@ -539,10 +539,10 @@
                 }
             ],
             "otras_frutas": [
+                "mango",
                 "palta",
                 "arandano",
-                "fresa",
-                ",mandarina",
+                "mandarina",
                 "uva"
             ]
         },
@@ -603,10 +603,10 @@
                 }
             ],
             "otras_frutas": [
+                "mango",
                 "palta",
                 "arandano",
                 "fresa",
-                ",mandarina",
                 "uva"
             ]
         },
@@ -697,11 +697,11 @@
                 }
             ],
             "otras_frutas": [
+                "mango",
                 "palta",
                 "arandano",
                 "fresa",
-                "mandarina",
-                "uva"
+                "mandarina"
             ]
         }
     ]
